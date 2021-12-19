@@ -1,0 +1,671 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+// 0x00000001 System.Void FmodResonanceAudio::UpdateAudioRoom(FmodResonanceAudioRoom,System.Boolean)
+extern void FmodResonanceAudio_UpdateAudioRoom_m7BA261F45B51012C063F8EF663E86E2CF6AE0F59 (void);
+// 0x00000002 System.Boolean FmodResonanceAudio::IsListenerInsideRoom(FmodResonanceAudioRoom)
+extern void FmodResonanceAudio_IsListenerInsideRoom_m79F8FEAE499DECFDF3DED44A3F838EE56FF19780 (void);
+// 0x00000003 FMOD.DSP FmodResonanceAudio::get_ListenerPlugin()
+extern void FmodResonanceAudio_get_ListenerPlugin_mA2C5240024E94DB913B0E707F9D5ABB6ADE725D1 (void);
+// 0x00000004 System.Single FmodResonanceAudio::ConvertAmplitudeFromDb(System.Single)
+extern void FmodResonanceAudio_ConvertAmplitudeFromDb_mA8E7A7AF76D2CCD851F0845E98E3DEF8286F5F77 (void);
+// 0x00000005 System.Void FmodResonanceAudio::ConvertAudioTransformFromUnity(UnityEngine.Vector3&,UnityEngine.Quaternion&)
+extern void FmodResonanceAudio_ConvertAudioTransformFromUnity_m31DFACA8AC2F819A09D73FFBFF52E8557FB511A6 (void);
+// 0x00000006 System.Byte[] FmodResonanceAudio::GetBytes(System.IntPtr,System.Int32)
+extern void FmodResonanceAudio_GetBytes_m63B078849DA03BB5C8B644E3ACFC955D36AA5B4D (void);
+// 0x00000007 FmodResonanceAudio/RoomProperties FmodResonanceAudio::GetRoomProperties(FmodResonanceAudioRoom)
+extern void FmodResonanceAudio_GetRoomProperties_m2BDFA081146DD418BE126B35F0CFED79940DEC81 (void);
+// 0x00000008 FMOD.DSP FmodResonanceAudio::Initialize()
+extern void FmodResonanceAudio_Initialize_mD613D6124B07B4F2771C03C7309299E4F9397320 (void);
+// 0x00000009 System.Void FmodResonanceAudio::.cctor()
+extern void FmodResonanceAudio__cctor_m06C49F6DF09E636E7D4E30A4C90252E3ED0434B6 (void);
+// 0x0000000A System.Void FmodResonanceAudioRoom::OnEnable()
+extern void FmodResonanceAudioRoom_OnEnable_mB188BE8EAC018E11E573ECD6B14B9A626E0D3B18 (void);
+// 0x0000000B System.Void FmodResonanceAudioRoom::OnDisable()
+extern void FmodResonanceAudioRoom_OnDisable_m08A67BD3EB2F0096FC52D3594CA57CD5327D0DDA (void);
+// 0x0000000C System.Void FmodResonanceAudioRoom::Update()
+extern void FmodResonanceAudioRoom_Update_m05E4CE700D7B0192685C8BFEB10CABC3C7DBB94E (void);
+// 0x0000000D System.Void FmodResonanceAudioRoom::OnDrawGizmosSelected()
+extern void FmodResonanceAudioRoom_OnDrawGizmosSelected_m9F722C1881901897CFCF04D957ADAE17A94FFE79 (void);
+// 0x0000000E System.Void FmodResonanceAudioRoom::.ctor()
+extern void FmodResonanceAudioRoom__ctor_mABA41323569C518F553262182D0E6A415EAC0D6F (void);
+// 0x0000000F IndoorAtlas.LatLngFloor IndoorAtlas.IndoorAtlasARWayfinding::get_target()
+extern void IndoorAtlasARWayfinding_get_target_m9F5703751115E8F5E23B833925ED9E06C0CCBAF6 (void);
+// 0x00000010 System.Void IndoorAtlas.IndoorAtlasARWayfinding::set_target(IndoorAtlas.LatLngFloor)
+extern void IndoorAtlasARWayfinding_set_target_m60F3F2A0370A3DE06C183DFD09F52831AB9A685A (void);
+// 0x00000011 System.Boolean IndoorAtlas.IndoorAtlasARWayfinding::get_wayfinding()
+extern void IndoorAtlasARWayfinding_get_wayfinding_m5011FD12831E7E3DE7BDB5B4E3DB83DB925DACDE (void);
+// 0x00000012 System.Void IndoorAtlas.IndoorAtlasARWayfinding::set_wayfinding(System.Boolean)
+extern void IndoorAtlasARWayfinding_set_wayfinding_m95202BBE23364C19B65660B50515064916CCB1E5 (void);
+// 0x00000013 UnityEngine.XR.ARFoundation.ARPlaneManager IndoorAtlas.IndoorAtlasARWayfinding::get_planeManager()
+extern void IndoorAtlasARWayfinding_get_planeManager_m01EF9B9EF072426A717CAD50F166891C5A9EC889 (void);
+// 0x00000014 System.Void IndoorAtlas.IndoorAtlasARWayfinding::set_planeManager(UnityEngine.XR.ARFoundation.ARPlaneManager)
+extern void IndoorAtlasARWayfinding_set_planeManager_mDC2322F40BD5D66518958B5E405F305AB401FD2B (void);
+// 0x00000015 System.Boolean IndoorAtlas.IndoorAtlasARWayfinding::IsTracking()
+extern void IndoorAtlasARWayfinding_IsTracking_mCB70DFCA58A3C42FD128FB57E0B535038C9E108D (void);
+// 0x00000016 System.Void IndoorAtlas.IndoorAtlasARWayfinding::OnArFrame(UnityEngine.XR.ARFoundation.ARCameraFrameEventArgs)
+extern void IndoorAtlasARWayfinding_OnArFrame_m783D09FDFC9903671429BE7AC498AA66D58C2A21 (void);
+// 0x00000017 System.Void IndoorAtlas.IndoorAtlasARWayfinding::RegisterFrameEvent()
+extern void IndoorAtlasARWayfinding_RegisterFrameEvent_m0D844826D4A32744F52A024CDBCF3B31FB459550 (void);
+// 0x00000018 UnityEngine.Camera IndoorAtlas.IndoorAtlasARWayfinding::get_camera()
+extern void IndoorAtlasARWayfinding_get_camera_mFAD06C6337B46CE1C8305716FD298D9D0C20CAD8 (void);
+// 0x00000019 System.Void IndoorAtlas.IndoorAtlasARWayfinding::set_camera(UnityEngine.Camera)
+extern void IndoorAtlasARWayfinding_set_camera_mB630FAC38AD32EA240BB528483724FD545F9CB24 (void);
+// 0x0000001A UnityEngine.GameObject IndoorAtlas.IndoorAtlasARWayfinding::get_compass()
+extern void IndoorAtlasARWayfinding_get_compass_m10365BBA2CDDA384D90373BB4655F008687CAE3F (void);
+// 0x0000001B System.Void IndoorAtlas.IndoorAtlasARWayfinding::set_compass(UnityEngine.GameObject)
+extern void IndoorAtlasARWayfinding_set_compass_m2487DB54AFD828D9D45CB5C12CBAB8DA301B1579 (void);
+// 0x0000001C UnityEngine.GameObject IndoorAtlas.IndoorAtlasARWayfinding::get_goal()
+extern void IndoorAtlasARWayfinding_get_goal_mB95EAAF98F6C8FFB3F56809DAAAE590934980F08 (void);
+// 0x0000001D System.Void IndoorAtlas.IndoorAtlasARWayfinding::set_goal(UnityEngine.GameObject)
+extern void IndoorAtlasARWayfinding_set_goal_mB92B2328B3F8E89BC1AE6F1D2B11CABF5B4076EE (void);
+// 0x0000001E System.Void IndoorAtlas.IndoorAtlasARWayfinding::DestroyTurns()
+extern void IndoorAtlasARWayfinding_DestroyTurns_m97AD515DAEAC07F2E39D4D29B97DF8E7DDDDED16 (void);
+// 0x0000001F System.Void IndoorAtlas.IndoorAtlasARWayfinding::InstantiateTurns()
+extern void IndoorAtlasARWayfinding_InstantiateTurns_m0466A919D74A5153F9EAD53A7E6C8FAC8D334B50 (void);
+// 0x00000020 UnityEngine.GameObject IndoorAtlas.IndoorAtlasARWayfinding::get_turn()
+extern void IndoorAtlasARWayfinding_get_turn_m4014D1416348487DD459263155B4D44B723AF7A8 (void);
+// 0x00000021 System.Void IndoorAtlas.IndoorAtlasARWayfinding::set_turn(UnityEngine.GameObject)
+extern void IndoorAtlasARWayfinding_set_turn_m46D804D80DAF7F374E8E91C8781CB44DF2CA77B3 (void);
+// 0x00000022 System.Void IndoorAtlas.IndoorAtlasARWayfinding::Awake()
+extern void IndoorAtlasARWayfinding_Awake_m54196A9048EC53CC1C129A665522F5519E6E98D0 (void);
+// 0x00000023 System.Void IndoorAtlas.IndoorAtlasARWayfinding::OnEnable()
+extern void IndoorAtlasARWayfinding_OnEnable_m2191CA44031C836C825E2D2B6C3F69399F3DB6DD (void);
+// 0x00000024 System.Void IndoorAtlas.IndoorAtlasARWayfinding::OnDisable()
+extern void IndoorAtlasARWayfinding_OnDisable_m44A4FF3F5820C513CEF2C9CA5DEFFC7611A51C94 (void);
+// 0x00000025 System.Void IndoorAtlas.IndoorAtlasARWayfinding::OnBeforeRender()
+extern void IndoorAtlasARWayfinding_OnBeforeRender_m596D9DD4ED9CB8F244B8E400256CB0F5F5A09BD5 (void);
+// 0x00000026 System.Void IndoorAtlas.IndoorAtlasARWayfinding::.ctor()
+extern void IndoorAtlasARWayfinding__ctor_m4122EC2F65BF947D7D0B8A96DD8CA624CE22E458 (void);
+// 0x00000027 System.Void IndoorAtlas.WGS84::.ctor()
+extern void WGS84__ctor_m92EE26712B1F5F54A1E968B756F7D72E105FC7BF (void);
+// 0x00000028 System.Void IndoorAtlas.LatLngFloor::.ctor()
+extern void LatLngFloor__ctor_m733B0450B7408A682D4C87FFE2C2501758EE47D1 (void);
+// 0x00000029 System.Void IndoorAtlas.Heading::.ctor()
+extern void Heading__ctor_m3193A21F10838BD664A6BAF52E4CEF02E6FF2340 (void);
+// 0x0000002A System.Void IndoorAtlas.Location::.ctor()
+extern void Location__ctor_m0E4914481DCD7754961ED3D86CA7BE6248062BEE (void);
+// 0x0000002B UnityEngine.Quaternion IndoorAtlas.Orientation::getQuaternion()
+extern void Orientation_getQuaternion_mC8A9C8A10238244459A5FA35D137B131303DF835 (void);
+// 0x0000002C System.Void IndoorAtlas.Orientation::.ctor()
+extern void Orientation__ctor_m40A9471A36F260180BB3AB5A81774587A114E1C6 (void);
+// 0x0000002D System.Void IndoorAtlas.Geofence::.ctor()
+extern void Geofence__ctor_m27802BDF8B62134A77AE018D767F674A78923CEA (void);
+// 0x0000002E System.Void IndoorAtlas.POI::.ctor()
+extern void POI__ctor_m232AB0D35A706E533D469C2E391F941893CF0BC1 (void);
+// 0x0000002F System.Void IndoorAtlas.Floorplan::.ctor()
+extern void Floorplan__ctor_m7B63EB9D15704E6434148A79B3EE8AD303E22AEC (void);
+// 0x00000030 System.Void IndoorAtlas.Venue::.ctor()
+extern void Venue__ctor_m221958A237E4B68B8907E78845FFC75CFB6EA450 (void);
+// 0x00000031 System.Void IndoorAtlas.Region::.ctor()
+extern void Region__ctor_mD29131C2B341F0A23F8922503E55FFDCB16F28DC (void);
+// 0x00000032 System.Void IndoorAtlas.Status::.ctor()
+extern void Status__ctor_mF9DB8C47B1B3EBB41CD48DB9DA464CCABAF69AF5 (void);
+// 0x00000033 System.Void IndoorAtlas.RoutePoint::.ctor()
+extern void RoutePoint__ctor_m23698553383C14B635D1D1292414D052A3EDD7A3 (void);
+// 0x00000034 System.Void IndoorAtlas.RouteLeg::.ctor()
+extern void RouteLeg__ctor_mCB2DD01EDB22B3DCC872F16C7A7510B27DBC3820 (void);
+// 0x00000035 System.Void IndoorAtlas.Route::.ctor()
+extern void Route__ctor_m34CE25C9C6BA842FF5C770741A67506AF9502EF1 (void);
+// 0x00000036 System.Boolean IndoorAtlas.LocationManager::indooratlas_init(System.String,System.String,System.String,System.String)
+extern void LocationManager_indooratlas_init_m63FDAD50BB9EE85109E71B4B7A793EF225194755 (void);
+// 0x00000037 System.Void IndoorAtlas.LocationManager::Init(System.String,System.String,System.String,System.String)
+extern void LocationManager_Init_mF9ECC915841247295BE7BC0E5C85A5E822B4ADB7 (void);
+// 0x00000038 System.Boolean IndoorAtlas.LocationManager::indooratlas_close()
+extern void LocationManager_indooratlas_close_mF93A4EACB9D4A4DE1B1F416218B585D1C2D0FC2D (void);
+// 0x00000039 System.Void IndoorAtlas.LocationManager::Close()
+extern void LocationManager_Close_mCA6E7114846B4399331785DCC658CF25791E879B (void);
+// 0x0000003A System.String IndoorAtlas.LocationManager::indooratlas_versionString()
+extern void LocationManager_indooratlas_versionString_m1F872EB7D2D315387C0F2001FBCD579465951376 (void);
+// 0x0000003B System.String IndoorAtlas.LocationManager::VersionString()
+extern void LocationManager_VersionString_m999C4A18AF8F49B0D657464A11C43B67EFC5A694 (void);
+// 0x0000003C System.Void IndoorAtlas.LocationManager::indooratlas_setDistanceFilter(System.Double)
+extern void LocationManager_indooratlas_setDistanceFilter_mBF48FB37A8D420BFDDC3ED933A758EDED80E537D (void);
+// 0x0000003D System.Void IndoorAtlas.LocationManager::SetDistanceFilter(System.Double)
+extern void LocationManager_SetDistanceFilter_mA6BEFA3085F374274F2538651F9DE1EF2AD7DEF8 (void);
+// 0x0000003E System.Double IndoorAtlas.LocationManager::indooratlas_getDistanceFilter()
+extern void LocationManager_indooratlas_getDistanceFilter_mCA4B6E0DA27162C2672D3F525502C5FB48E1B41F (void);
+// 0x0000003F System.Double IndoorAtlas.LocationManager::GetDistanceFilter()
+extern void LocationManager_GetDistanceFilter_m8360EE35A555F84198BF38BAD6E40F2D9251DC00 (void);
+// 0x00000040 System.Void IndoorAtlas.LocationManager::indooratlas_setTimeFilter(System.Double)
+extern void LocationManager_indooratlas_setTimeFilter_m5846FA5A995BAA90342B0C344450A9DED5C73155 (void);
+// 0x00000041 System.Void IndoorAtlas.LocationManager::SetTimeFilter(System.Double)
+extern void LocationManager_SetTimeFilter_mBE593A3417515514A61CCD998B320B05434C05D0 (void);
+// 0x00000042 System.Double IndoorAtlas.LocationManager::indooratlas_getTimeFilter()
+extern void LocationManager_indooratlas_getTimeFilter_m49C2337D3A6049F9A0565A66AB8F05674388EAD4 (void);
+// 0x00000043 System.Double IndoorAtlas.LocationManager::GetTimeFilter()
+extern void LocationManager_GetTimeFilter_m631C33567154877B88C8BB5A8F4282F2CA5874CB (void);
+// 0x00000044 System.Void IndoorAtlas.LocationManager::indooratlas_setHeadingFilter(System.Double)
+extern void LocationManager_indooratlas_setHeadingFilter_mB93BB580C75F6C8DEE64B6691BD84F4E775FFCAD (void);
+// 0x00000045 System.Void IndoorAtlas.LocationManager::SetHeadingFilter(System.Double)
+extern void LocationManager_SetHeadingFilter_mB49774182C58294745C0E29F60C25B7E5A95BF16 (void);
+// 0x00000046 System.Double IndoorAtlas.LocationManager::indooratlas_getHeadingFilter()
+extern void LocationManager_indooratlas_getHeadingFilter_m4836AD637B74D945700C787305CAD065A386E86B (void);
+// 0x00000047 System.Double IndoorAtlas.LocationManager::GetHeadingFilter()
+extern void LocationManager_GetHeadingFilter_m835A2D8C7F68913A9035DAFD43A0EB9EEDBFEDFE (void);
+// 0x00000048 System.Void IndoorAtlas.LocationManager::indooratlas_setAttitudeFilter(System.Double)
+extern void LocationManager_indooratlas_setAttitudeFilter_m01A07166B2AB20B645C2DB8817969D4402626282 (void);
+// 0x00000049 System.Void IndoorAtlas.LocationManager::SetAttitudeFilter(System.Double)
+extern void LocationManager_SetAttitudeFilter_m3AEFDB7B5BF23E1A7F6A2726B98B1A009722EE45 (void);
+// 0x0000004A System.Double IndoorAtlas.LocationManager::indooratlas_getAttitudeFilter()
+extern void LocationManager_indooratlas_getAttitudeFilter_m3FB3959724BB66B47BA6CEED337C104D823A8C7C (void);
+// 0x0000004B System.Double IndoorAtlas.LocationManager::GetAttitudeFilter()
+extern void LocationManager_GetAttitudeFilter_m206C5113F5D9F4CD0B1F75E57927E129A1B9E234 (void);
+// 0x0000004C System.Void IndoorAtlas.LocationManager::indooratlas_lockFloor(System.Int32)
+extern void LocationManager_indooratlas_lockFloor_mE1E2A6D0B6099F47062ADE7F769A39DD32FEA7A0 (void);
+// 0x0000004D System.Void IndoorAtlas.LocationManager::LockFloor(System.Int32)
+extern void LocationManager_LockFloor_m33E2BFB61DBA691A3DD037855C8086480E530280 (void);
+// 0x0000004E System.Void IndoorAtlas.LocationManager::indooratlas_unlockFloor()
+extern void LocationManager_indooratlas_unlockFloor_m8A3227D6ABB0F79FE3370939D82D1B931E4794C0 (void);
+// 0x0000004F System.Void IndoorAtlas.LocationManager::UnlockFloor()
+extern void LocationManager_UnlockFloor_m809678E4F51D0B87981AA6FBA08E6FA9E41C17B1 (void);
+// 0x00000050 System.Void IndoorAtlas.LocationManager::indooratlas_lockIndoors(System.Boolean)
+extern void LocationManager_indooratlas_lockIndoors_mDA997CEE5BB39EB30B1E060596A37B78D95508E9 (void);
+// 0x00000051 System.Void IndoorAtlas.LocationManager::LockIndoors(System.Boolean)
+extern void LocationManager_LockIndoors_m3910ED235C1E7564E19D22C3E9F9C6D2EAAC40C3 (void);
+// 0x00000052 System.Void IndoorAtlas.LocationManager::indooratlas_startUpdatingLocation()
+extern void LocationManager_indooratlas_startUpdatingLocation_m8A8C515EAE52E08EE7EC46A27151B96EFF2AC20F (void);
+// 0x00000053 System.Void IndoorAtlas.LocationManager::StartUpdatingLocation()
+extern void LocationManager_StartUpdatingLocation_m9B2BE343A453530CA63EBDC51485122746365470 (void);
+// 0x00000054 System.Void IndoorAtlas.LocationManager::indooratlas_stopUpdatingLocation()
+extern void LocationManager_indooratlas_stopUpdatingLocation_m2DDCD8BEB22F842122C8280493AEF53AE5A85734 (void);
+// 0x00000055 System.Void IndoorAtlas.LocationManager::StopUpdatingLocation()
+extern void LocationManager_StopUpdatingLocation_m52713DEAE75ACB104FD5C70C6B99DEDF7EA32106 (void);
+// 0x00000056 System.Void IndoorAtlas.LocationManager::indooratlas_startMonitoringForWayfinding(System.String)
+extern void LocationManager_indooratlas_startMonitoringForWayfinding_mBEAD9ACCFFECB48134A2F697272B94F4BF90FA73 (void);
+// 0x00000057 System.Void IndoorAtlas.LocationManager::StartMonitoringForWayfinding(IndoorAtlas.LatLngFloor)
+extern void LocationManager_StartMonitoringForWayfinding_mCC75254D101458738B5CEE422D5D9C42DECFF88C (void);
+// 0x00000058 System.Void IndoorAtlas.LocationManager::indooratlas_stopMonitoringForWayfinding()
+extern void LocationManager_indooratlas_stopMonitoringForWayfinding_m86A922D1801988B5C4032D45A6FA854E2BC1AD2D (void);
+// 0x00000059 System.Void IndoorAtlas.LocationManager::StopMonitoringForWayfinding()
+extern void LocationManager_StopMonitoringForWayfinding_m2F5829A7B66849F63247BCACB0FBE45D26ECCF52 (void);
+// 0x0000005A System.String IndoorAtlas.LocationManager::indooratlas_traceID()
+extern void LocationManager_indooratlas_traceID_m86AF1BB3BA7E476492ABBB9F75BD1A1F385B04D6 (void);
+// 0x0000005B System.String IndoorAtlas.LocationManager::GetTraceId()
+extern void LocationManager_GetTraceId_m73C700ED6F1A8AA9395019B8BE95B9E7D420D104 (void);
+// 0x0000005C System.Void IndoorAtlas.LocationManager::indooratlas_releaseArSession()
+extern void LocationManager_indooratlas_releaseArSession_m6B295BFF37E9571EC100C69DB0C11CA6CDBD16DF (void);
+// 0x0000005D System.Void IndoorAtlas.LocationManager::ReleaseArSession()
+extern void LocationManager_ReleaseArSession_mE30A17ECF1D45F32CA711DC0B9A55F5A356AE463 (void);
+// 0x0000005E UnityEngine.Matrix4x4 IndoorAtlas.LocationManager::UnityMatrixToIndoorAtlasMatrix(UnityEngine.Matrix4x4)
+extern void LocationManager_UnityMatrixToIndoorAtlasMatrix_m086EAC6A11A014041A636A2DA85C5BA530A96086 (void);
+// 0x0000005F UnityEngine.Matrix4x4 IndoorAtlas.LocationManager::IndoorAtlasMatrixToUnityMatrix(UnityEngine.Matrix4x4)
+extern void LocationManager_IndoorAtlasMatrixToUnityMatrix_mC80001C4F8DB4C01D5D3077E75E02E64BC2A2603 (void);
+// 0x00000060 System.Void IndoorAtlas.LocationManager::indooratlas_setArPoseMatrix(System.Single[])
+extern void LocationManager_indooratlas_setArPoseMatrix_m28D866B0919FB8C9E58CB7018FE67C0CA1C8AD8B (void);
+// 0x00000061 System.Void IndoorAtlas.LocationManager::SetArPoseMatrix(UnityEngine.Matrix4x4)
+extern void LocationManager_SetArPoseMatrix_mFC0339939BFCFDADD2F9200DB75C148676368107 (void);
+// 0x00000062 System.Void IndoorAtlas.LocationManager::indooratlas_setArCameraToWorldMatrix(System.Single[])
+extern void LocationManager_indooratlas_setArCameraToWorldMatrix_m409055144FB685DDA46B6F78EB1CBDE51FDD5582 (void);
+// 0x00000063 System.Void IndoorAtlas.LocationManager::SetArCameraToWorldMatrix(UnityEngine.Matrix4x4)
+extern void LocationManager_SetArCameraToWorldMatrix_m94D63F03ABE808EE83C26BEE1496D05402473A35 (void);
+// 0x00000064 System.Boolean IndoorAtlas.LocationManager::indooratlas_getArIsConverged()
+extern void LocationManager_indooratlas_getArIsConverged_mABFE269A0873A62B8E19FF774B9F5065A65A1F55 (void);
+// 0x00000065 System.Boolean IndoorAtlas.LocationManager::GetArIsConverged()
+extern void LocationManager_GetArIsConverged_m2D858C4AAF7B14882046F22F8D3E2712C5E7DFEB (void);
+// 0x00000066 System.Boolean IndoorAtlas.LocationManager::indooratlas_getArCompassMatrix(System.Single[])
+extern void LocationManager_indooratlas_getArCompassMatrix_m10DF625ACA30365CA1F55C04B8ACA32DCCF79F30 (void);
+// 0x00000067 UnityEngine.Matrix4x4 IndoorAtlas.LocationManager::GetArCompassMatrix()
+extern void LocationManager_GetArCompassMatrix_m577C7F3D5B8F6A95CA941A9C483117EC4234E786 (void);
+// 0x00000068 System.Boolean IndoorAtlas.LocationManager::indooratlas_getArGoalMatrix(System.Single[])
+extern void LocationManager_indooratlas_getArGoalMatrix_mAC25A81728C29D3B8385291888B52D57B674BB25 (void);
+// 0x00000069 UnityEngine.Matrix4x4 IndoorAtlas.LocationManager::GetArGoalMatrix()
+extern void LocationManager_GetArGoalMatrix_m07B3D5DEAB94464F11CA1C4C79DFA1A793437084 (void);
+// 0x0000006A System.Int32 IndoorAtlas.LocationManager::indooratlas_getArTurnCount()
+extern void LocationManager_indooratlas_getArTurnCount_m436A05C0CF2B83950FB654BD9D7FD6F66D8B3E59 (void);
+// 0x0000006B System.Int32 IndoorAtlas.LocationManager::GetArTurnCount()
+extern void LocationManager_GetArTurnCount_m7AF1AC7D1EB607813A0F823AFAB83D45F4870B52 (void);
+// 0x0000006C System.Boolean IndoorAtlas.LocationManager::indooratlas_getArTurnMatrix(System.Int32,System.Single[])
+extern void LocationManager_indooratlas_getArTurnMatrix_mACEAB96F3D145C9A2A706322EF0D07611E016241 (void);
+// 0x0000006D UnityEngine.Matrix4x4 IndoorAtlas.LocationManager::GetArTurnMatrix(System.Int32)
+extern void LocationManager_GetArTurnMatrix_mCBE4C044583A3C363CD3163AF90E2E22617F8074 (void);
+// 0x0000006E System.Void IndoorAtlas.LocationManager::indooratlas_addArPlane(System.Single,System.Single,System.Single,System.Single,System.Single)
+extern void LocationManager_indooratlas_addArPlane_m2E916604667F7A94ECDAC0756D662CC0127C12D6 (void);
+// 0x0000006F System.Void IndoorAtlas.LocationManager::AddArPlane(System.Single,System.Single,System.Single,System.Single,System.Single)
+extern void LocationManager_AddArPlane_m227A719233C25CADDC1F98FEF31133337EE3B987 (void);
+// 0x00000070 System.Void IndoorAtlas.LocationManager::.ctor()
+extern void LocationManager__ctor_m8A7B0F89185A993CE9C081C9CFEF2903E2365180 (void);
+// 0x00000071 System.Void IndoorAtlas.LocationManager::.cctor()
+extern void LocationManager__cctor_mCB9CF93BF141B0884BB06E4359837417471A7275 (void);
+// 0x00000072 System.Double IndoorAtlas.IndoorAtlasSession::get_distanceFilter()
+extern void IndoorAtlasSession_get_distanceFilter_m95B8CC304A32BCDF5A2A6C3BAACE0B8B1D1CBFD5 (void);
+// 0x00000073 System.Void IndoorAtlas.IndoorAtlasSession::set_distanceFilter(System.Double)
+extern void IndoorAtlasSession_set_distanceFilter_m434A6CE7C827327808DCD78B6E99820C84C783A9 (void);
+// 0x00000074 System.Double IndoorAtlas.IndoorAtlasSession::get_timeFilter()
+extern void IndoorAtlasSession_get_timeFilter_mE26F22864E3CADD58130F87B5EC3A18646AB7B09 (void);
+// 0x00000075 System.Void IndoorAtlas.IndoorAtlasSession::set_timeFilter(System.Double)
+extern void IndoorAtlasSession_set_timeFilter_mC3B372B4138D11683EE7D2FE62BD558354699CA8 (void);
+// 0x00000076 System.Double IndoorAtlas.IndoorAtlasSession::get_headingFilter()
+extern void IndoorAtlasSession_get_headingFilter_mA6859CD483144D49CC3EAFA106D178FACA7F3561 (void);
+// 0x00000077 System.Void IndoorAtlas.IndoorAtlasSession::set_headingFilter(System.Double)
+extern void IndoorAtlasSession_set_headingFilter_m5D3994FA708F5A665C464EDFFE9988AD02925983 (void);
+// 0x00000078 System.Double IndoorAtlas.IndoorAtlasSession::get_attitudeFilter()
+extern void IndoorAtlasSession_get_attitudeFilter_m591E66E7784883B649683B5284A3D609EC445070 (void);
+// 0x00000079 System.Void IndoorAtlas.IndoorAtlasSession::set_attitudeFilter(System.Double)
+extern void IndoorAtlasSession_set_attitudeFilter_m3FBFA637139754105A9C04B0795372A9B9AF90FB (void);
+// 0x0000007A System.Void IndoorAtlas.IndoorAtlasSession::WarnIfMultipleSessions()
+extern void IndoorAtlasSession_WarnIfMultipleSessions_m893888A6A9876FC771DA69A56EB1B3E61D0E11C4 (void);
+// 0x0000007B System.Void IndoorAtlas.IndoorAtlasSession::OnEnable()
+extern void IndoorAtlasSession_OnEnable_m667B555FD3D500004175BC29D67287FBC8B9CF92 (void);
+// 0x0000007C System.Void IndoorAtlas.IndoorAtlasSession::OnDisable()
+extern void IndoorAtlasSession_OnDisable_mE62E2E0A4383535F89ABC0EB638B2D028056B13B (void);
+// 0x0000007D System.Void IndoorAtlas.IndoorAtlasSession::NativeIndoorAtlasOnLocationChanged(System.String)
+extern void IndoorAtlasSession_NativeIndoorAtlasOnLocationChanged_m874D21F780D073F41B9BE4B38B63A828C5C2D484 (void);
+// 0x0000007E System.Void IndoorAtlas.IndoorAtlasSession::NativeIndoorAtlasOnStatusChanged(System.String)
+extern void IndoorAtlasSession_NativeIndoorAtlasOnStatusChanged_mEF7988A656F758BFDE16441CAE088D04E0C75FEA (void);
+// 0x0000007F System.Void IndoorAtlas.IndoorAtlasSession::NativeIndoorAtlasOnHeadingChanged(System.String)
+extern void IndoorAtlasSession_NativeIndoorAtlasOnHeadingChanged_m439BA88FCB96940EF210683D8979DD5637E109D8 (void);
+// 0x00000080 System.Void IndoorAtlas.IndoorAtlasSession::NativeIndoorAtlasOnOrientationChanged(System.String)
+extern void IndoorAtlasSession_NativeIndoorAtlasOnOrientationChanged_mC2398627064566BA680EE517569D2E0B535A1C42 (void);
+// 0x00000081 System.Void IndoorAtlas.IndoorAtlasSession::NativeIndoorAtlasOnEnterRegion(System.String)
+extern void IndoorAtlasSession_NativeIndoorAtlasOnEnterRegion_mE83CEDADA09504E4E9C8408FC4C5362E60DF3DEF (void);
+// 0x00000082 System.Void IndoorAtlas.IndoorAtlasSession::NativeIndoorAtlasOnExitRegion(System.String)
+extern void IndoorAtlasSession_NativeIndoorAtlasOnExitRegion_m839AB9F0F9F5405B32534DE177CC5F0F3DC60383 (void);
+// 0x00000083 System.Void IndoorAtlas.IndoorAtlasSession::NativeIndoorAtlasOnRoute(System.String)
+extern void IndoorAtlasSession_NativeIndoorAtlasOnRoute_m6F33C121CB70BC5EEE8EF6830B566E5C76806E5C (void);
+// 0x00000084 System.Void IndoorAtlas.IndoorAtlasSession::.ctor()
+extern void IndoorAtlasSession__ctor_m232D45B610992910D22D1EB163256EEE28803342 (void);
+// 0x00000085 UnityEngine.UI.Text IndoorAtlas.IndoorAtlasUIInformationProvider::get_traceId()
+extern void IndoorAtlasUIInformationProvider_get_traceId_mA8E53E0101973232C8EDC2516808993EB4E26EF8 (void);
+// 0x00000086 System.Void IndoorAtlas.IndoorAtlasUIInformationProvider::set_traceId(UnityEngine.UI.Text)
+extern void IndoorAtlasUIInformationProvider_set_traceId_m67AC6DE89470807647F7A7175BD91A5771B537D8 (void);
+// 0x00000087 UnityEngine.UI.Text IndoorAtlas.IndoorAtlasUIInformationProvider::get_region()
+extern void IndoorAtlasUIInformationProvider_get_region_m891326275C22E4528CA374768074447A6B5A6487 (void);
+// 0x00000088 System.Void IndoorAtlas.IndoorAtlasUIInformationProvider::set_region(UnityEngine.UI.Text)
+extern void IndoorAtlasUIInformationProvider_set_region_mCF9CF3D5EEBA89035DC9D34063FD4072D50EA130 (void);
+// 0x00000089 IndoorAtlas.IndoorAtlasARWayfinding IndoorAtlas.IndoorAtlasUIInformationProvider::get_wayfinder()
+extern void IndoorAtlasUIInformationProvider_get_wayfinder_m5FFABB654B99DD221036BB8E1A0A88641A68CE2D (void);
+// 0x0000008A System.Void IndoorAtlas.IndoorAtlasUIInformationProvider::set_wayfinder(IndoorAtlas.IndoorAtlasARWayfinding)
+extern void IndoorAtlasUIInformationProvider_set_wayfinder_mBD5C27616C9EA0F15E35336677492C4B04CECC29 (void);
+// 0x0000008B System.Void IndoorAtlas.IndoorAtlasUIInformationProvider::onPoiChanged()
+extern void IndoorAtlasUIInformationProvider_onPoiChanged_mCB91CA1CA21DFC7DA4DFF3B38D6451D6F2CAEC50 (void);
+// 0x0000008C UnityEngine.UI.Dropdown IndoorAtlas.IndoorAtlasUIInformationProvider::get_poi()
+extern void IndoorAtlasUIInformationProvider_get_poi_m1D3FF38D952D0D65AF2D16F341868077BA89818E (void);
+// 0x0000008D System.Void IndoorAtlas.IndoorAtlasUIInformationProvider::set_poi(UnityEngine.UI.Dropdown)
+extern void IndoorAtlasUIInformationProvider_set_poi_m940195CF0A0C9503E1F451519AF664DC7FAB0B95 (void);
+// 0x0000008E System.Void IndoorAtlas.IndoorAtlasUIInformationProvider::IndoorAtlasOnEnterRegion(IndoorAtlas.Region)
+extern void IndoorAtlasUIInformationProvider_IndoorAtlasOnEnterRegion_m4E03FABBB24F8E9CFCC05AD85B002B01C04DF923 (void);
+// 0x0000008F System.Void IndoorAtlas.IndoorAtlasUIInformationProvider::IndoorAtlasOnExitRegion(IndoorAtlas.Region)
+extern void IndoorAtlasUIInformationProvider_IndoorAtlasOnExitRegion_m6D1011159DB8187833B71DCA98F21621A5B3255A (void);
+// 0x00000090 System.Void IndoorAtlas.IndoorAtlasUIInformationProvider::UpdateText()
+extern void IndoorAtlasUIInformationProvider_UpdateText_m2F20840B4AE2F3880E471E212D396ACF9EB93B7E (void);
+// 0x00000091 System.Void IndoorAtlas.IndoorAtlasUIInformationProvider::Awake()
+extern void IndoorAtlasUIInformationProvider_Awake_m289008F3F97E83FEFE336556F7BDDB6E1182C5DA (void);
+// 0x00000092 System.Void IndoorAtlas.IndoorAtlasUIInformationProvider::OnEnable()
+extern void IndoorAtlasUIInformationProvider_OnEnable_m70C79FF0560C1624C72F26B6885FE48A8550C647 (void);
+// 0x00000093 System.Void IndoorAtlas.IndoorAtlasUIInformationProvider::OnDisable()
+extern void IndoorAtlasUIInformationProvider_OnDisable_mB41447332CBC082A22F19676225E506838B5BEFA (void);
+// 0x00000094 System.Void IndoorAtlas.IndoorAtlasUIInformationProvider::.ctor()
+extern void IndoorAtlasUIInformationProvider__ctor_mBE58DD78E3796C2939BC7C62AB58599D95E7F82D (void);
+// 0x00000095 System.Void IndoorAtlas.IndoorAtlasUIInformationProvider::<set_poi>b__19_0(System.Int32)
+extern void IndoorAtlasUIInformationProvider_U3Cset_poiU3Eb__19_0_mEDF0386C0F908718BBAE10DA93887EDD1ACA89AE (void);
+// 0x00000096 System.Void IndoorAtlas.IndoorAtlasUIInformationProvider::<Awake>b__23_0(System.Int32)
+extern void IndoorAtlasUIInformationProvider_U3CAwakeU3Eb__23_0_m13DC550C25F75BF93B575A856B517CB3882036A4 (void);
+// 0x00000097 System.Void IndoorAtlas.IndoorAtlasVRCamera::Awake()
+extern void IndoorAtlasVRCamera_Awake_m32D4E372F7704E44ED1199FA6054D303FFD765B0 (void);
+// 0x00000098 System.Void IndoorAtlas.IndoorAtlasVRCamera::IndoorAtlasOnOrientationChanged(UnityEngine.Quaternion)
+extern void IndoorAtlasVRCamera_IndoorAtlasOnOrientationChanged_m3377FE9816A82D57D7E46A3C6598D6388BF3A74A (void);
+// 0x00000099 System.Void IndoorAtlas.IndoorAtlasVRCamera::.ctor()
+extern void IndoorAtlasVRCamera__ctor_m41A041AABC10B5DFF0DD8A85543A2B285A56727B (void);
+// 0x0000009A System.Void IndoorAtlas.WGSConversion::SetOrigin(System.Double,System.Double)
+extern void WGSConversion_SetOrigin_m059788520650E34D49AAC6E82A69DCA29D1EB4FA (void);
+// 0x0000009B UnityEngine.Vector2 IndoorAtlas.WGSConversion::WGStoEN(System.Double,System.Double)
+extern void WGSConversion_WGStoEN_m47E33E7C22C975A2786EDF1ADDECAC88C45DCAD6 (void);
+// 0x0000009C System.Boolean IndoorAtlas.WGSConversion::IsReady()
+extern void WGSConversion_IsReady_m5E961B490E64F6938E2E3E22AB73114A9D25B4E4 (void);
+// 0x0000009D System.Void IndoorAtlas.WGSConversion::.ctor()
+extern void WGSConversion__ctor_m597C7DF4F9DC89163116B6D4944757B8EE5B3A78 (void);
+static Il2CppMethodPointer s_methodPointers[157] = 
+{
+	FmodResonanceAudio_UpdateAudioRoom_m7BA261F45B51012C063F8EF663E86E2CF6AE0F59,
+	FmodResonanceAudio_IsListenerInsideRoom_m79F8FEAE499DECFDF3DED44A3F838EE56FF19780,
+	FmodResonanceAudio_get_ListenerPlugin_mA2C5240024E94DB913B0E707F9D5ABB6ADE725D1,
+	FmodResonanceAudio_ConvertAmplitudeFromDb_mA8E7A7AF76D2CCD851F0845E98E3DEF8286F5F77,
+	FmodResonanceAudio_ConvertAudioTransformFromUnity_m31DFACA8AC2F819A09D73FFBFF52E8557FB511A6,
+	FmodResonanceAudio_GetBytes_m63B078849DA03BB5C8B644E3ACFC955D36AA5B4D,
+	FmodResonanceAudio_GetRoomProperties_m2BDFA081146DD418BE126B35F0CFED79940DEC81,
+	FmodResonanceAudio_Initialize_mD613D6124B07B4F2771C03C7309299E4F9397320,
+	FmodResonanceAudio__cctor_m06C49F6DF09E636E7D4E30A4C90252E3ED0434B6,
+	FmodResonanceAudioRoom_OnEnable_mB188BE8EAC018E11E573ECD6B14B9A626E0D3B18,
+	FmodResonanceAudioRoom_OnDisable_m08A67BD3EB2F0096FC52D3594CA57CD5327D0DDA,
+	FmodResonanceAudioRoom_Update_m05E4CE700D7B0192685C8BFEB10CABC3C7DBB94E,
+	FmodResonanceAudioRoom_OnDrawGizmosSelected_m9F722C1881901897CFCF04D957ADAE17A94FFE79,
+	FmodResonanceAudioRoom__ctor_mABA41323569C518F553262182D0E6A415EAC0D6F,
+	IndoorAtlasARWayfinding_get_target_m9F5703751115E8F5E23B833925ED9E06C0CCBAF6,
+	IndoorAtlasARWayfinding_set_target_m60F3F2A0370A3DE06C183DFD09F52831AB9A685A,
+	IndoorAtlasARWayfinding_get_wayfinding_m5011FD12831E7E3DE7BDB5B4E3DB83DB925DACDE,
+	IndoorAtlasARWayfinding_set_wayfinding_m95202BBE23364C19B65660B50515064916CCB1E5,
+	IndoorAtlasARWayfinding_get_planeManager_m01EF9B9EF072426A717CAD50F166891C5A9EC889,
+	IndoorAtlasARWayfinding_set_planeManager_mDC2322F40BD5D66518958B5E405F305AB401FD2B,
+	IndoorAtlasARWayfinding_IsTracking_mCB70DFCA58A3C42FD128FB57E0B535038C9E108D,
+	IndoorAtlasARWayfinding_OnArFrame_m783D09FDFC9903671429BE7AC498AA66D58C2A21,
+	IndoorAtlasARWayfinding_RegisterFrameEvent_m0D844826D4A32744F52A024CDBCF3B31FB459550,
+	IndoorAtlasARWayfinding_get_camera_mFAD06C6337B46CE1C8305716FD298D9D0C20CAD8,
+	IndoorAtlasARWayfinding_set_camera_mB630FAC38AD32EA240BB528483724FD545F9CB24,
+	IndoorAtlasARWayfinding_get_compass_m10365BBA2CDDA384D90373BB4655F008687CAE3F,
+	IndoorAtlasARWayfinding_set_compass_m2487DB54AFD828D9D45CB5C12CBAB8DA301B1579,
+	IndoorAtlasARWayfinding_get_goal_mB95EAAF98F6C8FFB3F56809DAAAE590934980F08,
+	IndoorAtlasARWayfinding_set_goal_mB92B2328B3F8E89BC1AE6F1D2B11CABF5B4076EE,
+	IndoorAtlasARWayfinding_DestroyTurns_m97AD515DAEAC07F2E39D4D29B97DF8E7DDDDED16,
+	IndoorAtlasARWayfinding_InstantiateTurns_m0466A919D74A5153F9EAD53A7E6C8FAC8D334B50,
+	IndoorAtlasARWayfinding_get_turn_m4014D1416348487DD459263155B4D44B723AF7A8,
+	IndoorAtlasARWayfinding_set_turn_m46D804D80DAF7F374E8E91C8781CB44DF2CA77B3,
+	IndoorAtlasARWayfinding_Awake_m54196A9048EC53CC1C129A665522F5519E6E98D0,
+	IndoorAtlasARWayfinding_OnEnable_m2191CA44031C836C825E2D2B6C3F69399F3DB6DD,
+	IndoorAtlasARWayfinding_OnDisable_m44A4FF3F5820C513CEF2C9CA5DEFFC7611A51C94,
+	IndoorAtlasARWayfinding_OnBeforeRender_m596D9DD4ED9CB8F244B8E400256CB0F5F5A09BD5,
+	IndoorAtlasARWayfinding__ctor_m4122EC2F65BF947D7D0B8A96DD8CA624CE22E458,
+	WGS84__ctor_m92EE26712B1F5F54A1E968B756F7D72E105FC7BF,
+	LatLngFloor__ctor_m733B0450B7408A682D4C87FFE2C2501758EE47D1,
+	Heading__ctor_m3193A21F10838BD664A6BAF52E4CEF02E6FF2340,
+	Location__ctor_m0E4914481DCD7754961ED3D86CA7BE6248062BEE,
+	Orientation_getQuaternion_mC8A9C8A10238244459A5FA35D137B131303DF835,
+	Orientation__ctor_m40A9471A36F260180BB3AB5A81774587A114E1C6,
+	Geofence__ctor_m27802BDF8B62134A77AE018D767F674A78923CEA,
+	POI__ctor_m232AB0D35A706E533D469C2E391F941893CF0BC1,
+	Floorplan__ctor_m7B63EB9D15704E6434148A79B3EE8AD303E22AEC,
+	Venue__ctor_m221958A237E4B68B8907E78845FFC75CFB6EA450,
+	Region__ctor_mD29131C2B341F0A23F8922503E55FFDCB16F28DC,
+	Status__ctor_mF9DB8C47B1B3EBB41CD48DB9DA464CCABAF69AF5,
+	RoutePoint__ctor_m23698553383C14B635D1D1292414D052A3EDD7A3,
+	RouteLeg__ctor_mCB2DD01EDB22B3DCC872F16C7A7510B27DBC3820,
+	Route__ctor_m34CE25C9C6BA842FF5C770741A67506AF9502EF1,
+	LocationManager_indooratlas_init_m63FDAD50BB9EE85109E71B4B7A793EF225194755,
+	LocationManager_Init_mF9ECC915841247295BE7BC0E5C85A5E822B4ADB7,
+	LocationManager_indooratlas_close_mF93A4EACB9D4A4DE1B1F416218B585D1C2D0FC2D,
+	LocationManager_Close_mCA6E7114846B4399331785DCC658CF25791E879B,
+	LocationManager_indooratlas_versionString_m1F872EB7D2D315387C0F2001FBCD579465951376,
+	LocationManager_VersionString_m999C4A18AF8F49B0D657464A11C43B67EFC5A694,
+	LocationManager_indooratlas_setDistanceFilter_mBF48FB37A8D420BFDDC3ED933A758EDED80E537D,
+	LocationManager_SetDistanceFilter_mA6BEFA3085F374274F2538651F9DE1EF2AD7DEF8,
+	LocationManager_indooratlas_getDistanceFilter_mCA4B6E0DA27162C2672D3F525502C5FB48E1B41F,
+	LocationManager_GetDistanceFilter_m8360EE35A555F84198BF38BAD6E40F2D9251DC00,
+	LocationManager_indooratlas_setTimeFilter_m5846FA5A995BAA90342B0C344450A9DED5C73155,
+	LocationManager_SetTimeFilter_mBE593A3417515514A61CCD998B320B05434C05D0,
+	LocationManager_indooratlas_getTimeFilter_m49C2337D3A6049F9A0565A66AB8F05674388EAD4,
+	LocationManager_GetTimeFilter_m631C33567154877B88C8BB5A8F4282F2CA5874CB,
+	LocationManager_indooratlas_setHeadingFilter_mB93BB580C75F6C8DEE64B6691BD84F4E775FFCAD,
+	LocationManager_SetHeadingFilter_mB49774182C58294745C0E29F60C25B7E5A95BF16,
+	LocationManager_indooratlas_getHeadingFilter_m4836AD637B74D945700C787305CAD065A386E86B,
+	LocationManager_GetHeadingFilter_m835A2D8C7F68913A9035DAFD43A0EB9EEDBFEDFE,
+	LocationManager_indooratlas_setAttitudeFilter_m01A07166B2AB20B645C2DB8817969D4402626282,
+	LocationManager_SetAttitudeFilter_m3AEFDB7B5BF23E1A7F6A2726B98B1A009722EE45,
+	LocationManager_indooratlas_getAttitudeFilter_m3FB3959724BB66B47BA6CEED337C104D823A8C7C,
+	LocationManager_GetAttitudeFilter_m206C5113F5D9F4CD0B1F75E57927E129A1B9E234,
+	LocationManager_indooratlas_lockFloor_mE1E2A6D0B6099F47062ADE7F769A39DD32FEA7A0,
+	LocationManager_LockFloor_m33E2BFB61DBA691A3DD037855C8086480E530280,
+	LocationManager_indooratlas_unlockFloor_m8A3227D6ABB0F79FE3370939D82D1B931E4794C0,
+	LocationManager_UnlockFloor_m809678E4F51D0B87981AA6FBA08E6FA9E41C17B1,
+	LocationManager_indooratlas_lockIndoors_mDA997CEE5BB39EB30B1E060596A37B78D95508E9,
+	LocationManager_LockIndoors_m3910ED235C1E7564E19D22C3E9F9C6D2EAAC40C3,
+	LocationManager_indooratlas_startUpdatingLocation_m8A8C515EAE52E08EE7EC46A27151B96EFF2AC20F,
+	LocationManager_StartUpdatingLocation_m9B2BE343A453530CA63EBDC51485122746365470,
+	LocationManager_indooratlas_stopUpdatingLocation_m2DDCD8BEB22F842122C8280493AEF53AE5A85734,
+	LocationManager_StopUpdatingLocation_m52713DEAE75ACB104FD5C70C6B99DEDF7EA32106,
+	LocationManager_indooratlas_startMonitoringForWayfinding_mBEAD9ACCFFECB48134A2F697272B94F4BF90FA73,
+	LocationManager_StartMonitoringForWayfinding_mCC75254D101458738B5CEE422D5D9C42DECFF88C,
+	LocationManager_indooratlas_stopMonitoringForWayfinding_m86A922D1801988B5C4032D45A6FA854E2BC1AD2D,
+	LocationManager_StopMonitoringForWayfinding_m2F5829A7B66849F63247BCACB0FBE45D26ECCF52,
+	LocationManager_indooratlas_traceID_m86AF1BB3BA7E476492ABBB9F75BD1A1F385B04D6,
+	LocationManager_GetTraceId_m73C700ED6F1A8AA9395019B8BE95B9E7D420D104,
+	LocationManager_indooratlas_releaseArSession_m6B295BFF37E9571EC100C69DB0C11CA6CDBD16DF,
+	LocationManager_ReleaseArSession_mE30A17ECF1D45F32CA711DC0B9A55F5A356AE463,
+	LocationManager_UnityMatrixToIndoorAtlasMatrix_m086EAC6A11A014041A636A2DA85C5BA530A96086,
+	LocationManager_IndoorAtlasMatrixToUnityMatrix_mC80001C4F8DB4C01D5D3077E75E02E64BC2A2603,
+	LocationManager_indooratlas_setArPoseMatrix_m28D866B0919FB8C9E58CB7018FE67C0CA1C8AD8B,
+	LocationManager_SetArPoseMatrix_mFC0339939BFCFDADD2F9200DB75C148676368107,
+	LocationManager_indooratlas_setArCameraToWorldMatrix_m409055144FB685DDA46B6F78EB1CBDE51FDD5582,
+	LocationManager_SetArCameraToWorldMatrix_m94D63F03ABE808EE83C26BEE1496D05402473A35,
+	LocationManager_indooratlas_getArIsConverged_mABFE269A0873A62B8E19FF774B9F5065A65A1F55,
+	LocationManager_GetArIsConverged_m2D858C4AAF7B14882046F22F8D3E2712C5E7DFEB,
+	LocationManager_indooratlas_getArCompassMatrix_m10DF625ACA30365CA1F55C04B8ACA32DCCF79F30,
+	LocationManager_GetArCompassMatrix_m577C7F3D5B8F6A95CA941A9C483117EC4234E786,
+	LocationManager_indooratlas_getArGoalMatrix_mAC25A81728C29D3B8385291888B52D57B674BB25,
+	LocationManager_GetArGoalMatrix_m07B3D5DEAB94464F11CA1C4C79DFA1A793437084,
+	LocationManager_indooratlas_getArTurnCount_m436A05C0CF2B83950FB654BD9D7FD6F66D8B3E59,
+	LocationManager_GetArTurnCount_m7AF1AC7D1EB607813A0F823AFAB83D45F4870B52,
+	LocationManager_indooratlas_getArTurnMatrix_mACEAB96F3D145C9A2A706322EF0D07611E016241,
+	LocationManager_GetArTurnMatrix_mCBE4C044583A3C363CD3163AF90E2E22617F8074,
+	LocationManager_indooratlas_addArPlane_m2E916604667F7A94ECDAC0756D662CC0127C12D6,
+	LocationManager_AddArPlane_m227A719233C25CADDC1F98FEF31133337EE3B987,
+	LocationManager__ctor_m8A7B0F89185A993CE9C081C9CFEF2903E2365180,
+	LocationManager__cctor_mCB9CF93BF141B0884BB06E4359837417471A7275,
+	IndoorAtlasSession_get_distanceFilter_m95B8CC304A32BCDF5A2A6C3BAACE0B8B1D1CBFD5,
+	IndoorAtlasSession_set_distanceFilter_m434A6CE7C827327808DCD78B6E99820C84C783A9,
+	IndoorAtlasSession_get_timeFilter_mE26F22864E3CADD58130F87B5EC3A18646AB7B09,
+	IndoorAtlasSession_set_timeFilter_mC3B372B4138D11683EE7D2FE62BD558354699CA8,
+	IndoorAtlasSession_get_headingFilter_mA6859CD483144D49CC3EAFA106D178FACA7F3561,
+	IndoorAtlasSession_set_headingFilter_m5D3994FA708F5A665C464EDFFE9988AD02925983,
+	IndoorAtlasSession_get_attitudeFilter_m591E66E7784883B649683B5284A3D609EC445070,
+	IndoorAtlasSession_set_attitudeFilter_m3FBFA637139754105A9C04B0795372A9B9AF90FB,
+	IndoorAtlasSession_WarnIfMultipleSessions_m893888A6A9876FC771DA69A56EB1B3E61D0E11C4,
+	IndoorAtlasSession_OnEnable_m667B555FD3D500004175BC29D67287FBC8B9CF92,
+	IndoorAtlasSession_OnDisable_mE62E2E0A4383535F89ABC0EB638B2D028056B13B,
+	IndoorAtlasSession_NativeIndoorAtlasOnLocationChanged_m874D21F780D073F41B9BE4B38B63A828C5C2D484,
+	IndoorAtlasSession_NativeIndoorAtlasOnStatusChanged_mEF7988A656F758BFDE16441CAE088D04E0C75FEA,
+	IndoorAtlasSession_NativeIndoorAtlasOnHeadingChanged_m439BA88FCB96940EF210683D8979DD5637E109D8,
+	IndoorAtlasSession_NativeIndoorAtlasOnOrientationChanged_mC2398627064566BA680EE517569D2E0B535A1C42,
+	IndoorAtlasSession_NativeIndoorAtlasOnEnterRegion_mE83CEDADA09504E4E9C8408FC4C5362E60DF3DEF,
+	IndoorAtlasSession_NativeIndoorAtlasOnExitRegion_m839AB9F0F9F5405B32534DE177CC5F0F3DC60383,
+	IndoorAtlasSession_NativeIndoorAtlasOnRoute_m6F33C121CB70BC5EEE8EF6830B566E5C76806E5C,
+	IndoorAtlasSession__ctor_m232D45B610992910D22D1EB163256EEE28803342,
+	IndoorAtlasUIInformationProvider_get_traceId_mA8E53E0101973232C8EDC2516808993EB4E26EF8,
+	IndoorAtlasUIInformationProvider_set_traceId_m67AC6DE89470807647F7A7175BD91A5771B537D8,
+	IndoorAtlasUIInformationProvider_get_region_m891326275C22E4528CA374768074447A6B5A6487,
+	IndoorAtlasUIInformationProvider_set_region_mCF9CF3D5EEBA89035DC9D34063FD4072D50EA130,
+	IndoorAtlasUIInformationProvider_get_wayfinder_m5FFABB654B99DD221036BB8E1A0A88641A68CE2D,
+	IndoorAtlasUIInformationProvider_set_wayfinder_mBD5C27616C9EA0F15E35336677492C4B04CECC29,
+	IndoorAtlasUIInformationProvider_onPoiChanged_mCB91CA1CA21DFC7DA4DFF3B38D6451D6F2CAEC50,
+	IndoorAtlasUIInformationProvider_get_poi_m1D3FF38D952D0D65AF2D16F341868077BA89818E,
+	IndoorAtlasUIInformationProvider_set_poi_m940195CF0A0C9503E1F451519AF664DC7FAB0B95,
+	IndoorAtlasUIInformationProvider_IndoorAtlasOnEnterRegion_m4E03FABBB24F8E9CFCC05AD85B002B01C04DF923,
+	IndoorAtlasUIInformationProvider_IndoorAtlasOnExitRegion_m6D1011159DB8187833B71DCA98F21621A5B3255A,
+	IndoorAtlasUIInformationProvider_UpdateText_m2F20840B4AE2F3880E471E212D396ACF9EB93B7E,
+	IndoorAtlasUIInformationProvider_Awake_m289008F3F97E83FEFE336556F7BDDB6E1182C5DA,
+	IndoorAtlasUIInformationProvider_OnEnable_m70C79FF0560C1624C72F26B6885FE48A8550C647,
+	IndoorAtlasUIInformationProvider_OnDisable_mB41447332CBC082A22F19676225E506838B5BEFA,
+	IndoorAtlasUIInformationProvider__ctor_mBE58DD78E3796C2939BC7C62AB58599D95E7F82D,
+	IndoorAtlasUIInformationProvider_U3Cset_poiU3Eb__19_0_mEDF0386C0F908718BBAE10DA93887EDD1ACA89AE,
+	IndoorAtlasUIInformationProvider_U3CAwakeU3Eb__23_0_m13DC550C25F75BF93B575A856B517CB3882036A4,
+	IndoorAtlasVRCamera_Awake_m32D4E372F7704E44ED1199FA6054D303FFD765B0,
+	IndoorAtlasVRCamera_IndoorAtlasOnOrientationChanged_m3377FE9816A82D57D7E46A3C6598D6388BF3A74A,
+	IndoorAtlasVRCamera__ctor_m41A041AABC10B5DFF0DD8A85543A2B285A56727B,
+	WGSConversion_SetOrigin_m059788520650E34D49AAC6E82A69DCA29D1EB4FA,
+	WGSConversion_WGStoEN_m47E33E7C22C975A2786EDF1ADDECAC88C45DCAD6,
+	WGSConversion_IsReady_m5E961B490E64F6938E2E3E22AB73114A9D25B4E4,
+	WGSConversion__ctor_m597C7DF4F9DC89163116B6D4944757B8EE5B3A78,
+};
+static const int32_t s_InvokerIndices[157] = 
+{
+	3779,
+	4022,
+	4107,
+	4046,
+	3744,
+	3565,
+	4093,
+	4107,
+	4143,
+	2614,
+	2614,
+	2614,
+	2614,
+	2614,
+	2558,
+	2137,
+	2586,
+	2158,
+	2558,
+	2137,
+	2586,
+	2063,
+	2614,
+	2558,
+	2137,
+	2558,
+	2137,
+	2558,
+	2137,
+	2614,
+	2614,
+	2558,
+	2137,
+	2614,
+	2614,
+	2614,
+	2614,
+	2614,
+	2614,
+	2614,
+	2614,
+	2614,
+	2571,
+	2614,
+	2614,
+	2614,
+	2614,
+	2614,
+	2614,
+	2614,
+	2614,
+	2614,
+	2614,
+	3112,
+	524,
+	4131,
+	2614,
+	4120,
+	2558,
+	4071,
+	2099,
+	4109,
+	2519,
+	4071,
+	2099,
+	4109,
+	2519,
+	4071,
+	2099,
+	4109,
+	2519,
+	4071,
+	2099,
+	4109,
+	2519,
+	4073,
+	2124,
+	4143,
+	2614,
+	4080,
+	2158,
+	4143,
+	2614,
+	4143,
+	2614,
+	4076,
+	2137,
+	4143,
+	2614,
+	4120,
+	2558,
+	4143,
+	2614,
+	3946,
+	3946,
+	4076,
+	2134,
+	4076,
+	2134,
+	4131,
+	2586,
+	4022,
+	2555,
+	4022,
+	2555,
+	4114,
+	2544,
+	3635,
+	1606,
+	2944,
+	281,
+	2614,
+	4143,
+	2519,
+	2099,
+	2519,
+	2099,
+	2519,
+	2099,
+	2519,
+	2099,
+	2614,
+	2614,
+	2614,
+	2137,
+	2137,
+	2137,
+	2137,
+	2137,
+	2137,
+	2137,
+	2614,
+	2558,
+	2137,
+	2558,
+	2137,
+	2558,
+	2137,
+	2614,
+	2558,
+	2137,
+	2137,
+	2137,
+	2614,
+	2614,
+	2614,
+	2614,
+	2614,
+	2124,
+	2124,
+	2614,
+	2148,
+	2614,
+	1067,
+	1051,
+	2586,
+	2614,
+};
+extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharpU2Dfirstpass_AttributeGenerators[];
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharpU2Dfirstpass_CodeGenModule = 
+{
+	"Assembly-CSharp-firstpass.dll",
+	157,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	g_AssemblyU2DCSharpU2Dfirstpass_AttributeGenerators,
+	NULL, // module initializer,
+	NULL,
+	NULL,
+	NULL,
+};

@@ -1,0 +1,628 @@
+[LOG] System::create                           : Header version = 2.01.07. Current version = 2.01.07.
+[LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0x0.
+[LOG] SystemI::init                            : Initialize version=20107 (113487), maxchannels=256, flags=0x00020000
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD Core Audio Output'
+[LOG] OutputCoreAudio::init                    : Output running 2 channels at 44100Hz sample rate.
+[LOG] OutputCoreAudio::init                    : Maximum hardware read size: 512 samples, Software buffer size: 512 samples, Number of software buffers: 4.
+[LOG] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
+[LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 0x7facd503f008 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] SystemI::createSound                     : filename = ../YellowStoneFallsSound FMOD fmod spatialiser/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7facbeed0898 : node = 0x7facdd7a7840
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7facd952f8e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facbeed0898
+[LOG] SystemI::createSoundInternal             :     Create name='../YellowStoneFallsSound FMOD fmod spatialiser/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 50257152
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 179136
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7facdd7a7950
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 7500
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WaterfallNoBears', format=5, channels=1, frequency=48000, lengthbytes=140128, lengthpcm=1370906, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.306641.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facbeed0898
+[LOG] SoundI::release                          : WaterfallNoBears (0x7facd6c58868)
+[LOG] SoundI::release                          :     WaterfallNoBears (0x7facd951da28)
+[LOG] SoundI::release                          :     WaterfallNoBears (0x7facd951af68)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facd6ea2a08
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facd6ea2a08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facbedbedd8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facbedbedd8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facd6ed9988
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facd6ed9988
+[LOG] SystemI::createSound                     : filename = ../YellowStoneFallsSound FMOD fmod spatialiser/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7facde8d6078 : node = 0x7facde8ee1b0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7facd952f8e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facde8d6078
+[LOG] SystemI::createSoundInternal             :     Create name='../YellowStoneFallsSound FMOD fmod spatialiser/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 50257152
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 179136
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7facde8ee2c0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 7500
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WaterfallNoBears', format=5, channels=1, frequency=48000, lengthbytes=140128, lengthpcm=1370906, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.306641.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facde8d6078
+[LOG] SoundI::release                          : WaterfallNoBears (0x7facbeed0898)
+[LOG] SoundI::release                          :     WaterfallNoBears (0x7facc15dd1a8)
+[LOG] SoundI::release                          :     WaterfallNoBears (0x7facc154d9e8)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facdd71f4e8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facdd71f4e8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facd9518f68
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facd9518f68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facd6ed58a8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facd6ed58a8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facd6ed2f58
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facd6ed2f58
+[LOG] SystemI::createSound                     : filename = ../YellowStoneFallsSound FMOD fmod spatialiser/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7facdd7b10d8 : node = 0x7facdd7163a0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7facd952f8e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facdd7b10d8
+[LOG] SystemI::createSoundInternal             :     Create name='../YellowStoneFallsSound FMOD fmod spatialiser/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 50257152
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 179136
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7facdd7164b0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 7500
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WaterfallNoBears', format=5, channels=1, frequency=48000, lengthbytes=140128, lengthpcm=1370906, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.306641.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facdd7b10d8
+[LOG] SoundI::release                          : WaterfallNoBears (0x7facde8d6078)
+[LOG] SoundI::release                          :     WaterfallNoBears (0x7facde02cc38)
+[LOG] SoundI::release                          :     WaterfallNoBears (0x7facde4386e8)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Soundfield'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Soundfield'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Listener'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[LOG] PluginEffectModel::init                  : Missing DSP plugin 'Resonance Audio Source'
+[LOG] PostLoad::initPluginEffects              : Creating stub DSP plugin model and continuing.
+[WRN] EffectInstanceFactory::create            : Creating stub DSP for plugin 'Resonance Audio Listener'
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 3
+[LOG] SystemI::createSound                     : filename = ../YellowStoneFallsSound FMOD fmod spatialiser/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7facde02bb38 : node = 0x7facde014510
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7facd952f8e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facde02bb38
+[LOG] SystemI::createSoundInternal             :     Create name='../YellowStoneFallsSound FMOD fmod spatialiser/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 50257152
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 179136
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7facde014620
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='grandfatherClock', format=5, channels=1, frequency=48000, lengthbytes=127488, lengthpcm=811186, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.161346.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facde02bb38
+[LOG] SoundI::release                          : grandfatherClock (0x7facde0075e8)
+[LOG] SoundI::release                          :     grandfatherClock (0x7facd6ec9f88)
+[LOG] SoundI::release                          :     grandfatherClock (0x7facd6ec5fb8)
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facdd71c9d8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facdd71c9d8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facdd71aed8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facdd71aed8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facd6c42f68
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facd6c42f68
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facd6c40c08
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facd6c40c08
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facd6c407a8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facd6c407a8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facd6c3f1a8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facd6c3f1a8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facd6ed58a8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facd6ed58a8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facd6ed2f58
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facd6ed2f58
+[LOG] SystemI::createSound                     : filename = ../YellowStoneFallsSound FMOD fmod spatialiser/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7facd96c9868 : node = 0x7facd96f8d90
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7facd952f8e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facd96c9868
+[LOG] SystemI::createSoundInternal             :     Create name='../YellowStoneFallsSound FMOD fmod spatialiser/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 50257152
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 179136
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7facd96f8ea0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 7500
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WaterfallNoBears', format=5, channels=1, frequency=48000, lengthbytes=140128, lengthpcm=1370906, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.306641.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facd96c9868
+[LOG] SoundI::release                          : WaterfallNoBears (0x7facdd7b10d8)
+[LOG] SoundI::release                          :     WaterfallNoBears (0x7facdb3dbe38)
+[LOG] SoundI::release                          :     WaterfallNoBears (0x7facde6d50c8)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 50257152
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 179136
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000c8df954
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1667807fa
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1667808b1
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1667808de
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x166780982
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7facc13527d8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='WollastonIntro', format=5, channels=1, frequency=48000, lengthbytes=40960, lengthpcm=253354, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.813936.
+[LOG] SystemI::createSound                     : filename = ../YellowStoneFallsSound FMOD fmod spatialiser/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7facc15e8538 : node = 0x7facc15e86f0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7facd952f8e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facc15e8538
+[LOG] SystemI::createSoundInternal             :     Create name='../YellowStoneFallsSound FMOD fmod spatialiser/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 50257152
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 179136
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7facc15e8800
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 7500
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WaterfallNoBears', format=5, channels=1, frequency=48000, lengthbytes=140128, lengthpcm=1370906, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.306641.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facc15e8538
+[LOG] SoundI::release                          : WaterfallNoBears (0x7facd96c9868)
+[LOG] SoundI::release                          :     WaterfallNoBears (0x7facc138d528)
+[LOG] SoundI::release                          :     WaterfallNoBears (0x7facc138d788)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 50257152
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 179136
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0x70000c8df954
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 0x1667807fa
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 0x1667808b1
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 0x1667808de
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 0x166780982
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0x7facc13558c8
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='WollastonMoreArtist', format=5, channels=1, frequency=48000, lengthbytes=17280, lengthpcm=119639, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.630290.
+[LOG] SystemI::createSound                     : filename = ../YellowStoneFallsSound FMOD fmod spatialiser/Build/Desktop/Master.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7facdc3ba188 : node = 0x7facdc3ba340
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7facd952f8e8.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7facdc3ba188
+[LOG] SystemI::createSoundInternal             :     Create name='../YellowStoneFallsSound FMOD fmod spatialiser/Build/Desktop/Master.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 50257152
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 179136
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7facdc3ba450
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 7500
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='WaterfallNoBears', format=5, channels=1, frequency=48000, lengthbytes=140128, lengthpcm=1370906, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.306641.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7facdc3ba188
+[LOG] SoundI::release                          : WaterfallNoBears (0x7facc15e8538)
+[LOG] SoundI::release                          :     WaterfallNoBears (0x7facdb363f88)
+[LOG] SoundI::release                          :     WaterfallNoBears (0x7facde699268)
+[LOG] SoundI::release                          :  (0x7facdd719908)
+[LOG] SoundI::release                          :     WollastonWhispers-CathrynWollaston-9 (0x7facdd719a78)
+[LOG] SoundI::release                          :  (0x7facdd71a5b8)
+[LOG] SoundI::release                          :     WollastonWhispers-WilliamWollaston-9-001 (0x7facdd71a728)
+[LOG] SoundI::release                          :  (0x7facd6c47158)
+[LOG] SoundI::release                          :     WollastonWhispers-WilliamWollaston-9-002 (0x7facd6c472c8)
+[LOG] SoundI::release                          : WaterfallNoBears (0x7facdc3ba188)
+[LOG] SoundI::release                          :     WaterfallNoBears (0x7facdc3b89f8)
+[LOG] SoundI::release                          :     WaterfallNoBears (0x7facdc3b1d78)
+[LOG] SoundI::release                          : humming-barbara-allan (0x7facd6c632b8)
+[LOG] SoundI::release                          :     humming-barbara-allan (0x7facd6e9c858)
+[LOG] SoundI::release                          :     humming-barbara-allan (0x7facd6e9bf48)
+[LOG] SoundI::release                          : piano2 (0x7facd952acd8)
+[LOG] SoundI::release                          :     piano2 (0x7facdd71c848)
+[LOG] SoundI::release                          :     piano2 (0x7facdd71c9d8)
+[LOG] SoundI::release                          : WollastonWhispers-NicholasWollaston-9 (0x7facd952a858)
+[LOG] SoundI::release                          :     WollastonWhispers-NicholasWollaston-9 (0x7facdd71f358)
+[LOG] SoundI::release                          :     WollastonWhispers-NicholasWollaston-9 (0x7facdd71f4e8)
+[LOG] SoundI::release                          : RailwayStationSounds-007 (0x7facde435528)
+[LOG] SoundI::release                          :     RailwayStationSounds-007 (0x7facbedb8008)
+[LOG] SoundI::release                          :     RailwayStationSounds-007 (0x7facbedb8198)
+[LOG] SoundI::release                          : Sung-002 (0x7facde0178b8)
+[LOG] SoundI::release                          :     Sung-002 (0x7facbedb9148)
+[LOG] SoundI::release                          :     Sung-002 (0x7facbedb93a8)
+[LOG] SoundI::release                          : RailwayStationSounds-003 (0x7facde0f3778)
+[LOG] SoundI::release                          :     RailwayStationSounds-003 (0x7facd6ed18c8)
+[LOG] SoundI::release                          :     RailwayStationSounds-003 (0x7facd6ed1a58)
+[LOG] SoundI::release                          : robin-bbc-gated (0x7facde454e08)
+[LOG] SoundI::release                          :     robin-bbc-gated (0x7facbedb7018)
+[LOG] SoundI::release                          :     robin-bbc-gated (0x7facbedb71a8)
+[LOG] SoundI::release                          : RailwayStationSounds-010 (0x7facd9530248)
+[LOG] SoundI::release                          :     RailwayStationSounds-010 (0x7facdd7207a8)
+[LOG] SoundI::release                          :     RailwayStationSounds-010 (0x7facdd7222f8)
+[LOG] SoundI::release                          : RailwayStationSounds-006 (0x7facde4c98a8)
+[LOG] SoundI::release                          :     RailwayStationSounds-006 (0x7facd6ecffc8)
+[LOG] SoundI::release                          :     RailwayStationSounds-006 (0x7facd6eceb58)
+[LOG] SoundI::release                          : grandfatherClock (0x7facde02bb38)
+[LOG] SoundI::release                          :     grandfatherClock (0x7facd87d6d78)
+[LOG] SoundI::release                          :     grandfatherClock (0x7facd96d1658)
+[LOG] SoundI::release                          : Bells (0x7facde0bf8e8)
+[LOG] SoundI::release                          :     Bells (0x7facd6c41298)
+[LOG] SoundI::release                          :     Bells (0x7facd6c407a8)
+[LOG] SoundI::release                          : RailwayStationSounds-009 (0x7facde4bbd78)
+[LOG] SoundI::release                          :     RailwayStationSounds-009 (0x7facd6ecda08)
+[LOG] SoundI::release                          :     RailwayStationSounds-009 (0x7facd6ecdb98)
+[LOG] SoundI::release                          : wind rl cellod (0x7facde099498)
+[LOG] SoundI::release                          :     wind rl cellod (0x7facd6ed2dc8)
+[LOG] SoundI::release                          :     wind rl cellod (0x7facd6ed2f58)
+[LOG] SoundI::release                          : wind rl (0x7facde0d1388)
+[LOG] SoundI::release                          :     wind rl (0x7facd6ed2718)
+[LOG] SoundI::release                          :     wind rl (0x7facd6ed58a8)
+[LOG] SoundI::release                          : Sung-001 (0x7facde4e1f18)
+[LOG] SoundI::release                          :     Sung-001 (0x7facd951f058)
+[LOG] SoundI::release                          :     Sung-001 (0x7facd951f1e8)
+[LOG] SoundI::release                          : Sung-004 (0x7facde09f3d8)
+[LOG] SoundI::release                          :     Sung-004 (0x7facd6ed0da8)
+[LOG] SoundI::release                          :     Sung-004 (0x7facd6ed0f38)
+[LOG] SoundI::release                          : Sung-008 (0x7facde0a6a38)
+[LOG] SoundI::release                          :     Sung-008 (0x7facbedbf328)
+[LOG] SoundI::release                          :     Sung-008 (0x7facbedbd1f8)
+[LOG] SoundI::release                          : RailwayStationSounds-005 (0x7facde0f13a8)
+[LOG] SoundI::release                          :     RailwayStationSounds-005 (0x7facdd71d138)
+[LOG] SoundI::release                          :     RailwayStationSounds-005 (0x7facdd71b728)
+[LOG] SoundI::release                          : Hums-002 (0x7facd6c7b308)
+[LOG] SoundI::release                          :     Hums-002 (0x7facd6ed9728)
+[LOG] SoundI::release                          :     Hums-002 (0x7facd6ed9988)
+[LOG] SoundI::release                          : wind fl (0x7facd6c52658)
+[LOG] SoundI::release                          :     wind fl (0x7facd9519b48)
+[LOG] SoundI::release                          :     wind fl (0x7facd9518f68)
+[LOG] SoundI::release                          : wind fl cellod (0x7facd6c53468)
+[LOG] SoundI::release                          :     wind fl cellod (0x7facd951aa08)
+[LOG] SoundI::release                          :     wind fl cellod (0x7facd95193e8)
+[LOG] SoundI::release                          : needles + chimes (0x7facd6c6a398)
+[LOG] SoundI::release                          :     needles + chimes (0x7facd6ea3828)
+[LOG] SoundI::release                          :     needles + chimes (0x7facd6ea2c98)
+[LOG] SoundI::release                          : chimes (0x7facd6c69e18)
+[LOG] SoundI::release                          :     chimes (0x7facd6eae198)
+[LOG] SoundI::release                          :     chimes (0x7facd6ea96d8)
+[LOG] SoundI::release                          : needles (0x7facd6c6b798)
+[LOG] SoundI::release                          :     needles (0x7facd6eadd98)
+[LOG] SoundI::release                          :     needles (0x7facd6eadff8)
+[LOG] SoundI::release                          : needles + reverb (0x7facd6c6b1e8)
+[LOG] SoundI::release                          :     needles + reverb (0x7facd6eae668)
+[LOG] SoundI::release                          :     needles + reverb (0x7facd6eae7f8)
+[LOG] SoundI::release                          : Hums-001 (0x7facd6c67518)
+[LOG] SoundI::release                          :     Hums-001 (0x7facd6ea2878)
+[LOG] SoundI::release                          :     Hums-001 (0x7facd6ea2a08)
+[LOG] SoundI::release                          : Sung-006 (0x7facde07e308)
+[LOG] SoundI::release                          :     Sung-006 (0x7facbedbba88)
+[LOG] SoundI::release                          :     Sung-006 (0x7facbedbbce8)
+[LOG] SoundI::release                          : Sung-007 (0x7facd6c88888)
+[LOG] SoundI::release                          :     Sung-007 (0x7facd6eb5b28)
+[LOG] SoundI::release                          :     Sung-007 (0x7facd6eb24e8)
+[LOG] SoundI::release                          : Marimba (0x7facde4d6c78)
+[LOG] SoundI::release                          :     Marimba (0x7facd6c43248)
+[LOG] SoundI::release                          :     Marimba (0x7facd6c40c08)
+[LOG] SoundI::release                          : Sung-005 (0x7facd6c78c18)
+[LOG] SoundI::release                          :     Sung-005 (0x7facd6edb768)
+[LOG] SoundI::release                          :     Sung-005 (0x7facd6eb14c8)
+[LOG] SoundI::release                          : running1 (0x7facde0ad7b8)
+[LOG] SoundI::release                          :     running1 (0x7facbedbff48)
+[LOG] SoundI::release                          :     running1 (0x7facbedbedd8)
+[LOG] SoundI::release                          : brushstrokes (0x7facd6c5e2b8)
+[LOG] SoundI::release                          :     brushstrokes (0x7facd6c44fe8)
+[LOG] SoundI::release                          :     brushstrokes (0x7facd6c44748)
+[LOG] SoundI::release                          : piano1 (0x7facde0f7dc8)
+[LOG] SoundI::release                          :     piano1 (0x7facdd71be88)
+[LOG] SoundI::release                          :     piano1 (0x7facdd71aed8)
+[LOG] SoundI::release                          : Sung-003 (0x7facd6c48e58)
+[LOG] SoundI::release                          :     Sung-003 (0x7facd9518768)
+[LOG] SoundI::release                          :     Sung-003 (0x7facd95189c8)
+[LOG] SoundI::release                          : wind rr (0x7facd6c7d7e8)
+[LOG] SoundI::release                          :     wind rr (0x7facd6ed8858)
+[LOG] SoundI::release                          :     wind rr (0x7facd6ed8ab8)
+[LOG] SoundI::release                          : wind rr cellod (0x7facd6c7fd78)
+[LOG] SoundI::release                          :     wind rr cellod (0x7facd6ed7e18)
+[LOG] SoundI::release                          :     wind rr cellod (0x7facd6ed7fa8)
+[LOG] SoundI::release                          : synth (0x7facde0a0938)
+[LOG] SoundI::release                          :     synth (0x7facd6c3ff58)
+[LOG] SoundI::release                          :     synth (0x7facd6c3f1a8)
+[LOG] SoundI::release                          : frenchHorns (0x7facde463f48)
+[LOG] SoundI::release                          :     frenchHorns (0x7facd6c42d08)
+[LOG] SoundI::release                          :     frenchHorns (0x7facd6c42f68)
+[LOG] SoundI::release                          : forest (0x7facd6c4f1e8)
+[LOG] SoundI::release                          :     forest (0x7facd9517e78)
+[LOG] SoundI::release                          :     forest (0x7facd9518008)
+[LOG] SoundI::release                          : fireInFireplace (0x7facde495dd8)
+[LOG] SoundI::release                          :     fireInFireplace (0x7facd6c45658)
+[LOG] SoundI::release                          :     fireInFireplace (0x7facd6c457e8)
+[LOG] SoundI::release                          : wind fr (0x7facde4bafc8)
+[LOG] SoundI::release                          :     wind fr (0x7facd9520ad8)
+[LOG] SoundI::release                          :     wind fr (0x7facd9520d38)
+[LOG] SoundI::release                          : wind fr cellod (0x7facde484fd8)
+[LOG] SoundI::release                          :     wind fr cellod (0x7facd95238b8)
+[LOG] SoundI::release                          :     wind fr cellod (0x7facd9520378)
+[LOG] SoundI::release                          : RailwayStationSounds-008 (0x7facde0f94d8)
+[LOG] SoundI::release                          :     RailwayStationSounds-008 (0x7facbedbf658)
+[LOG] SoundI::release                          :     RailwayStationSounds-008 (0x7facbedbf7e8)
+[LOG] SoundI::release                          : RailwayStationSounds-004 (0x7facde413b48)
+[LOG] SoundI::release                          :     RailwayStationSounds-004 (0x7facd9521de8)
+[LOG] SoundI::release                          :     RailwayStationSounds-004 (0x7facd9521f78)
+[LOG] SoundI::release                          : RailwayStationSounds-002 (0x7facde050b18)
+[LOG] SoundI::release                          :     RailwayStationSounds-002 (0x7facd6ec61b8)
+[LOG] SoundI::release                          :     RailwayStationSounds-002 (0x7facd6eb3db8)
+[LOG] SoundI::release                          :  (0x7facd6ee0498)
+[LOG] SoundI::release                          :     WollastonWhispers-WilliamWollaston-9-003 (0x7facd6edd428)
+[LOG] SoundI::release                          :  (0x7facd6c467f8)
+[LOG] SoundI::release                          :     WollastonWhispers-ElizabethWollaston-9-001 (0x7facd6c46968)
+[LOG] SoundI::release                          :  (0x7facd6c47608)
+[LOG] SoundI::release                          :     WollastonWhispers-ElizabethWollaston-9-002 (0x7facd6c454c8)
+[LOG] SoundI::release                          :  (0x7facd6c46ca8)
+[LOG] SoundI::release                          :     WollastonWhispers-AnneWollaston-9 (0x7facd6c46e18)
+[LOG] SoundI::release                          :  (0x7facc1364c68)
+[LOG] SoundI::release                          :     WollastonIntro (0x7facc1364fc8)
+[LOG] SoundI::release                          :  (0x7facdb3eb398)
+[LOG] SoundI::release                          :     WollastonMoreArtist (0x7facdb3f1b48)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] ProfileClient::markForDead               : Closing client connection
+[LOG] ProfileClient::recvThreadLoopFunction    : Socket disconnected
+[LOG] Thread::callback                         : FMOD profiler thread (recv) finished.
+[LOG] Thread::callback                         : FMOD profiler thread (send) finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.

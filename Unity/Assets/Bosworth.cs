@@ -13,6 +13,13 @@ public class Bosworth : MonoBehaviour
     private Visitor visitor;
     private float distance;
 
+    private bool Transitioning = false;
+    private bool Active = false;
+    private DateTime timeStarted;
+
+    [SerializeField]
+    private GameObject AudioGuide;
+
     [SerializeField]
     private BosworthRunning bosworthRuning;
 
@@ -21,13 +28,6 @@ public class Bosworth : MonoBehaviour
 
     [SerializeField]
     private Clicks clicks;
-
-    private bool Transitioning = false;
-    private bool Active = false;
-    private DateTime timeStarted;
-
-    [SerializeField]
-    private GameObject AudioGuide;
 
 
 

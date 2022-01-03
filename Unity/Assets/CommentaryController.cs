@@ -181,18 +181,7 @@ public class CommentaryController : MonoBehaviour
     }
   }
 
-  private void PlayClip(string commentaryClip){
-    if(CommentaryTalking){
-      commentaryClipInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-    }
-    commentaryClipInstance = FMODUnity.RuntimeManager.CreateInstance("event:/Commentary/" + commentaryClip);
-    if(audioGuide){
-      FMODUnity.RuntimeManager.StudioSystem.setParameterByName("DuckMusic", 40);
-      FMODUnity.RuntimeManager.AttachInstanceToGameObject(commentaryClipInstance, audioGuide.GetComponent<Transform>(), audioGuide.GetComponent<Rigidbody>());
-      CommentaryTalking = true;
-      commentaryClipInstance.start();
-    }
-  }
+  
 
 
   public void HandleAffirmativeGesture() {

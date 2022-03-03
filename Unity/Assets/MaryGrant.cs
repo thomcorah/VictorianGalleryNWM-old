@@ -34,11 +34,11 @@ public class MaryGrant : MonoBehaviour
     void Update()
     {
       distance = Vector3.Distance(visitor.transform.position, transform.position);
-      if(distance < 3 && !Active){
+      if(distance < 2 && !Active){
         Enter();
       }
 
-      if(distance > 3.5 && Active) {
+      if(distance > 2.5 && Active) {
         Exit();
       }
 

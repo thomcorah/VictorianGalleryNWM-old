@@ -348,18 +348,18 @@ extern void generateRivers_spawnRiver_mC343F18E431B538B6992C095107039764A560D95 
 extern void generateRivers_riverWave_mE02F066790E962729948F482BBC890FB34ECA353 (void);
 // 0x000000A8 System.Void generateRivers::.ctor()
 extern void generateRivers__ctor_mD85371F21566FBAE301711404483012C4023760E (void);
-// 0x000000A9 System.Void generateRivers/<riverWave>d__10::.ctor(System.Int32)
-extern void U3CriverWaveU3Ed__10__ctor_m5203846344C4DF3681894FB020DFC04F2A4A6740 (void);
-// 0x000000AA System.Void generateRivers/<riverWave>d__10::System.IDisposable.Dispose()
-extern void U3CriverWaveU3Ed__10_System_IDisposable_Dispose_m075A0D30241606B90DD57517E65C7C45719D20C5 (void);
-// 0x000000AB System.Boolean generateRivers/<riverWave>d__10::MoveNext()
-extern void U3CriverWaveU3Ed__10_MoveNext_mF7506F6178AEA11F4FACF4BB804EC9B1817B41FC (void);
-// 0x000000AC System.Object generateRivers/<riverWave>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CriverWaveU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m18CD38DFE711EA2F470ACF3F42CF8D664CF3E9C9 (void);
-// 0x000000AD System.Void generateRivers/<riverWave>d__10::System.Collections.IEnumerator.Reset()
-extern void U3CriverWaveU3Ed__10_System_Collections_IEnumerator_Reset_m8045735A16D5F15306561C0A538BA4CBB6910D7C (void);
-// 0x000000AE System.Object generateRivers/<riverWave>d__10::System.Collections.IEnumerator.get_Current()
-extern void U3CriverWaveU3Ed__10_System_Collections_IEnumerator_get_Current_m983BB473022F85545C05A9FE0633CE4984289965 (void);
+// 0x000000A9 System.Void generateRivers/<riverWave>d__11::.ctor(System.Int32)
+extern void U3CriverWaveU3Ed__11__ctor_m1A565A4A15630AF9112A9A16C31E7924FB1A5F42 (void);
+// 0x000000AA System.Void generateRivers/<riverWave>d__11::System.IDisposable.Dispose()
+extern void U3CriverWaveU3Ed__11_System_IDisposable_Dispose_m21A09DEE14327A24775F65B029BA963A3D7CEF03 (void);
+// 0x000000AB System.Boolean generateRivers/<riverWave>d__11::MoveNext()
+extern void U3CriverWaveU3Ed__11_MoveNext_m89EEB1EF1ADA9E51EFE1B56B911BAC733D584157 (void);
+// 0x000000AC System.Object generateRivers/<riverWave>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CriverWaveU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m95BB5892160A52B9C880135BEF6C3F64A478E6D7 (void);
+// 0x000000AD System.Void generateRivers/<riverWave>d__11::System.Collections.IEnumerator.Reset()
+extern void U3CriverWaveU3Ed__11_System_Collections_IEnumerator_Reset_mFFA79564ABACF5CE0A8D01ADDE4A1E6AA5854EE3 (void);
+// 0x000000AE System.Object generateRivers/<riverWave>d__11::System.Collections.IEnumerator.get_Current()
+extern void U3CriverWaveU3Ed__11_System_Collections_IEnumerator_get_Current_mADF523ECDD3486F446FA70486215B777437E4639 (void);
 // 0x000000AF System.Void randomMovement::Start()
 extern void randomMovement_Start_m52A2C91421D5D00A934253F6CC2B0E1AD29A34B8 (void);
 // 0x000000B0 System.Void randomMovement::SetVel()
@@ -1070,12 +1070,12 @@ static Il2CppMethodPointer s_methodPointers[444] =
 	generateRivers_spawnRiver_mC343F18E431B538B6992C095107039764A560D95,
 	generateRivers_riverWave_mE02F066790E962729948F482BBC890FB34ECA353,
 	generateRivers__ctor_mD85371F21566FBAE301711404483012C4023760E,
-	U3CriverWaveU3Ed__10__ctor_m5203846344C4DF3681894FB020DFC04F2A4A6740,
-	U3CriverWaveU3Ed__10_System_IDisposable_Dispose_m075A0D30241606B90DD57517E65C7C45719D20C5,
-	U3CriverWaveU3Ed__10_MoveNext_mF7506F6178AEA11F4FACF4BB804EC9B1817B41FC,
-	U3CriverWaveU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m18CD38DFE711EA2F470ACF3F42CF8D664CF3E9C9,
-	U3CriverWaveU3Ed__10_System_Collections_IEnumerator_Reset_m8045735A16D5F15306561C0A538BA4CBB6910D7C,
-	U3CriverWaveU3Ed__10_System_Collections_IEnumerator_get_Current_m983BB473022F85545C05A9FE0633CE4984289965,
+	U3CriverWaveU3Ed__11__ctor_m1A565A4A15630AF9112A9A16C31E7924FB1A5F42,
+	U3CriverWaveU3Ed__11_System_IDisposable_Dispose_m21A09DEE14327A24775F65B029BA963A3D7CEF03,
+	U3CriverWaveU3Ed__11_MoveNext_m89EEB1EF1ADA9E51EFE1B56B911BAC733D584157,
+	U3CriverWaveU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m95BB5892160A52B9C880135BEF6C3F64A478E6D7,
+	U3CriverWaveU3Ed__11_System_Collections_IEnumerator_Reset_mFFA79564ABACF5CE0A8D01ADDE4A1E6AA5854EE3,
+	U3CriverWaveU3Ed__11_System_Collections_IEnumerator_get_Current_mADF523ECDD3486F446FA70486215B777437E4639,
 	randomMovement_Start_m52A2C91421D5D00A934253F6CC2B0E1AD29A34B8,
 	randomMovement_SetVel_m74B07B0C95A95F21C6E5AD7A86964D46DD5EB616,
 	randomMovement_Update_mF5AE2EC4A56393D0366A038B7A19C1BAAD220E05,

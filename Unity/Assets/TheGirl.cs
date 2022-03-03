@@ -36,11 +36,11 @@ public class TheGirl : MonoBehaviour
     {
       distance = Vector3.Distance(visitor.transform.position, transform.position);
       //Debug.Log("Railway distance: " + distance);
-      if(distance < 3 && !Active){
+      if(distance < 2 && !Active){
         Enter();
       }
 
-      if(distance > 3.5 && Active) {
+      if(distance > 2.5 && Active) {
         Exit();
       }
 

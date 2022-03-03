@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-7595637902673978783
+--- !u!114 &-5913209186466789756
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18,7 +18,7 @@ MonoBehaviour:
   active: 1
   Properties:
     LiveUpdate:
-      Value: 1
+      Value: 0
       HasValue: 1
     LiveUpdatePort:
       Value: 9264
@@ -39,7 +39,7 @@ MonoBehaviour:
       Value: 3
       HasValue: 1
     VirtualChannelCount:
-      Value: 255
+      Value: 128
       HasValue: 1
     RealChannelCount:
       Value: 32
@@ -55,10 +55,7 @@ MonoBehaviour:
       - resonanceaudio
       HasValue: 1
     StaticPlugins:
-      Value:
-      - FMOD_ResonanceAudioSource_GetDSPDescription()
-      - FMOD_ResonanceAudioSoundfield_GetDSPDescription()
-      - FMOD_ResonanceAudioListener_GetDSPDescription()
+      Value: []
       HasValue: 1
     CallbackHandler:
       Value: {fileID: 0}
@@ -67,7 +64,7 @@ MonoBehaviour:
   threadAffinities:
     Value: []
     HasValue: 0
---- !u!114 &-6135959150030804572
+--- !u!114 &-5636074215885701495
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -145,8 +142,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: ../YellowStoneFallsSound FMOD fmod spatialiser/YellowStoneFallsSound.fspro
-  sourceBankPath: ../YellowStoneFallsSound FMOD fmod spatialiser/Build
+  sourceProjectPath: ../FMOD Sounds/NWM.fspro
+  sourceBankPath: ../FMOD Sounds/Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -208,7 +205,8 @@ MonoBehaviour:
     Value: 32
   Plugins:
   - resonanceaudio
-  MasterBanks: []
+  MasterBanks:
+  - Master
   Banks: []
   BanksToLoad: []
   LiveUpdatePort: 9264

@@ -42,11 +42,11 @@ public class Bosworth : MonoBehaviour
     {
 
         distance = Vector3.Distance(visitor.transform.position, transform.position);
-        if(distance < 3 && !Active){
+        if(distance < 1.5 && !Active){
           Enter();
         }
 
-        if(distance > 3.5 && Active) {
+        if(distance > 2 && Active) {
           Exit();
         }
 

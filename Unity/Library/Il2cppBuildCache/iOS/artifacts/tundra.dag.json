@@ -19,66 +19,66 @@
       "DebugActionIndex": 0
     },
     {
-      "Annotation": "Il2Cpp /Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/il2cppOutput",
-      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
+      "Annotation": "Il2Cpp /Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/il2cppOutput",
+      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-array-bounds-check --dotnetprofile=\"unityaot\" --additional-cpp=\"/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" --additional-cpp=\"/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" --avoid-dynamic-library-copy --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.3f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/il2cppOutput\"",
       "Inputs": [
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/Assembly-CSharp-firstpass.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/Bose.Wearable.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/FMODUnity.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/FMODUnityResonance.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/Mono.Security.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/System.Configuration.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/System.Core.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/System.Xml.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/System.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/Unity.Timeline.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/UnityEngine.dll",
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Temp/StagingArea/Data/Managed/mscorlib.dll"
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/Assembly-CSharp-firstpass.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/Bose.Wearable.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/FMODUnity.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/FMODUnityResonance.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/System.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/Unity.Timeline.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/Unity.XR.ARFoundation.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/Unity.XR.ARKit.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.ARModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.GameCenterModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Temp/StagingArea/Data/Managed/mscorlib.dll"
       ],
       "Outputs": [],
       "TargetDirectories": [
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/il2cppOutput"
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/il2cppOutput"
       ],
       "PassIndex": 0,
       "Deps": [],
@@ -89,13 +89,13 @@
       "DebugActionIndex": 1
     },
     {
-      "Annotation": "Copy Additional C++ File /Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
-      "Action": "cp \"/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File /Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp",
+      "Action": "cp \"/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp\" \"/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp\" ",
       "Inputs": [
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityClassRegistration.cpp"
       ],
       "Outputs": [
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityClassRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -109,13 +109,13 @@
       "DebugActionIndex": 2
     },
     {
-      "Annotation": "Copy Additional C++ File /Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
-      "Action": "cp \"/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
+      "Annotation": "Copy Additional C++ File /Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp",
+      "Action": "cp \"/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp\" \"/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp\" ",
       "Inputs": [
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/additionalCppFiles/UnityICallRegistration.cpp"
       ],
       "Outputs": [
-        "/Users/tcorah01/Developer/NWM/Yellowstone-Falls/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
+        "/Users/tcorah01/Developer/NWM/VictorianGalleryNWM/Unity/Library/Il2cppBuildCache/iOS/il2cppOutput/UnityICallRegistration.cpp"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -131,7 +131,7 @@
   ],
   "FileSignatures": [
     {
-      "File": "../../../../../../Library"
+      "File": "../../../../../../../Library"
     },
     {
       "File": "../../../Temp/StagingArea/Data/Managed"

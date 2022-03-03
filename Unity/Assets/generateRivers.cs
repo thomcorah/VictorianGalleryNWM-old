@@ -12,6 +12,8 @@ public class generateRivers : MonoBehaviour
     public IEnumerator coroutine;
     private List<GameObject> riverObjects = new List<GameObject>();
 
+    private bool creatingRivers = false;
+
     private DateTime timeLastRiver;
 
     // Start is called before the first frame update
@@ -24,13 +26,14 @@ public class generateRivers : MonoBehaviour
     }
 
     void Update(){
-      if(DateTime.Now > timeLastRiver.Add(new TimeSpan(0, 0, 1))){
+      if(DateTime.Now > timeLastRiver.Add(new TimeSpan(0, 0, 1)) && creatingRivers){
         spawnRiver();
       }
     }
 
     public void StartRiver() {
       timeLastRiver = DateTime.Now;
+      creatingRivers = true;
 
       Debug.Log("StartRiver");
       GameObject r1 = Instantiate(riverPrefab) as GameObject;
@@ -49,9 +52,12 @@ public class generateRivers : MonoBehaviour
 
     public void StopRiver() {
       Debug.Log("StopRiver");
+      Debug.Log(riverObjects);
+      creatingRivers = false;
       StopCoroutine(coroutine);
       Debug.Log(riverObjects);
       for(int i = 0; i < riverObjects.Count; i++) {
+        Debug.Log("River object");
         Debug.Log(riverObjects[i]);
         if(riverObjects[i]){
           Rigidbody thisRiverObject = riverObjects[i].GetComponent<Rigidbody>();

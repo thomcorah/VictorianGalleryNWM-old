@@ -49,11 +49,12 @@ public class YellowstoneFalls : MonoBehaviour
     {
 
         distance = Vector3.Distance(visitor.transform.position, transform.position);
-        if(distance < 3 && !Active){
+        if(distance < 2 && !Active){
           Enter();
         }
 
-        if(distance > 3.5 && Active) {
+        if(distance > 2.5 && Active) {
+          Debug.Log("Calling exit on Yellowstone Falls");
           Exit();
         }
 
@@ -104,7 +105,7 @@ public class YellowstoneFalls : MonoBehaviour
       //Debug.Log("Distance: " + xDelta);
       //waterfall.transform.position = Vector3.MoveTowards(waterfall.transform.position, waterfallEndPoint, speed);
       float distance =  Vector3.Distance(waterfall.transform.position, waterfallEndPoint);
-      
+
 
       if(DateTime.Now > timeStarted.Add(new TimeSpan(0, 0, 5))){
         commentaryController.StartCommentary();
@@ -119,7 +120,8 @@ public class YellowstoneFalls : MonoBehaviour
       Rigidbody rb = waterfall.GetComponent<Rigidbody>();
       float xDelta = Mathf.Abs(rb.transform.position.x - waterfallStartDistance);
       waterfall.GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("WaterfallDistance", xDelta + 6.0f, false);
-      if(rb.transform.position.x > -6){
+      if(rb.transform.position.x > -3){
+        Debug.Log("End of Yellowstone Transition out");
         rb.velocity = new Vector3(0, 0, 0);
         Transitioning = false;
         waterfall.GetComponent<FMODUnity.StudioEventEmitter>().SetParameter("Mode", 0, false);

@@ -1776,7 +1776,7 @@ ScriptsOnlyBuild:
     className: TMP_SpriteAsset
   - hash:
       serializedVersion: 2
-      Hash: 4b9f7379c397312e6fbb4e1f8e90d0f1
+      Hash: f21b4779e3a8c8dbb5339fa524af4f1e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Bosworth

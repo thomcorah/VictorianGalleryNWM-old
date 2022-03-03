@@ -109,14 +109,18 @@ public class CommentaryController : MonoBehaviour
   }
 
   public void StartCommentary(){
+    Debug.Log("StartCommentary");
     if(CommentaryOn){
+      Debug.Log(currentLocation);
       if(currentLocation == Location.Gallery){
         if(!GalleryIntroPlayed){
           PlayClip(CommentaryClip.GalleryIntroduction.ToString());
           GalleryIntroPlayed = true;
+          Debug.Log("Playing Gallery Introduction");
         }
       } else {
         if(!PaintingIntroPlayed){
+          PaintingIntroPlayed = true;
           currentCommentaryClip = CommentaryClip.PaintingIntroduction;
         } else {
           currentCommentaryClip = CommentaryClip.Intro;
@@ -259,7 +263,7 @@ public class CommentaryController : MonoBehaviour
 
   public void HandleInputGesture() {
     Debug.Log("Input");
-    if(!PaintingIntroPlayed && WaitingForCommentaryOffTest){
+    if(WaitingForCommentaryOffTest){
       PaintingIntroPlayed = true;
       WaitingForCommentaryOffTest = false;
       currentCommentaryClip = CommentaryClip.CommentaryOffTest;

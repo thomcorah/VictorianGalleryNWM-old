@@ -14,6 +14,7 @@ public class Visitor : MonoBehaviour
 
     [SerializeField]
     private GameObject AudioGuide;
+    private bool commentaryStarted = false;
 
     private Rigidbody rb;
 
@@ -71,7 +72,9 @@ public class Visitor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      if(DateTime.Now > timeStarted.Add(new TimeSpan(0, 0, 5)) && !commentaryController.GalleryIntroPlayed){
+      if(DateTime.Now > timeStarted.Add(new TimeSpan(0, 0, 5)) && !commentaryController.GalleryIntroPlayed && !commentaryStarted){
+        Debug.Log("Starting Gallery Commentary from Visitor");
+        commentaryStarted = true;
         commentaryController.StartCommentary();
       }
 
@@ -136,6 +139,11 @@ public class Visitor : MonoBehaviour
 
       Vector3 pos = transform.position;
       pos.y = 0.9f;
+      // Rotate the cube by converting the angles into a quaternion.
+        //Quaternion target = Quaternion.Euler(0, 27, 0);
+
+        // Dampen towards the target rotation
+        //transform.rotation = Quaternion.Slerp(transform.rotation, target,  Time.deltaTime * 5.0f);
       transform.position = pos;
 
       AudioGuide.transform.position = new Vector3(transform.position.x + 2, 1.8f, transform.position.z + 2);
@@ -148,13 +156,13 @@ public class Visitor : MonoBehaviour
       Debug.Log("ORIGINAL. Longitude: " + location.position.coordinate.longitude + ". Latitude: " + location.position.coordinate.latitude);
 
       IndoorAtlas.WGSConversion temp = new IndoorAtlas.WGSConversion ();
-      temp.SetOrigin(52.62884831, -1.14043638);
+      temp.SetOrigin(52.62828928, -1.14032121);
 
       Vector2 eastNorth = temp.WGStoEN (location.position.coordinate.latitude, location.position.coordinate.longitude);
       Debug.Log ("East-North distance: " + eastNorth.x + ", " + eastNorth.y);
 
-      float eastDif = eastNorth.x;//(float)location.position.coordinate.latitude - realWorldOrigin.x;
-      float northDif = eastNorth.y;//(float)location.position.coordinate.longitude - realWorldOrigin.y;
+      float eastDif = eastNorth.x + 2.0f;//(float)location.position.coordinate.latitude - realWorldOrigin.x;
+      float northDif = eastNorth.y - 4f;//(float)location.position.coordinate.longitude - realWorldOrigin.y;
 
       /*
       Debug.Log("AngleDif: " + angleDif);
